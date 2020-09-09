@@ -4,12 +4,16 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Amateur radio station KF7HVM operating primarily from Longview, WA and surrounding areas in
+Southwest Washington and Northwest Oregon.
+
+* Home Repeater: 147.26 Mhz \[+ 114.8\] [W7DG Repeater](http://www.w7dg.org/w7dgreference.html)
+* Simplex: 146.52 Mhz (National 2m FM Calling Frequency)
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+* [QRZ profile](https://www.qrz.com/db/KF7HVM)
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[kf7hvm@0x26.net](mailto:kf7hvm@0x26.net)
