@@ -3,6 +3,10 @@ layout: post
 title: ham2mon multi-channel scanner on macOS
 ---
 
+This setup allows for the automatic capture, archive, and playback of narrowband FM signals.
+Primarily I'm using it to listen to every 2 meter repeater within hearing distance to my
+home QTH of Longview, WA.
+
 # Quick Setup
 
 * Tested with macOS 10.14 using homebrew
@@ -22,9 +26,6 @@ title: ham2mon multi-channel scanner on macOS
 * follow setup steps for [ham2mon-gui](https://github.com/slavik0329/ham2mon-gui)
 
 # Deployment
-
-This setup allows for the automatic capture, archive, and playback of narrowband FM signals. Primarily I'm using it to listen
-to every 2 meter repeater within hearing distance to my home QTH of Longview, WA.
 
 The software is currently deployed on my main dev laptop running macOS. The ultimate goal is to deploy
 to a remote raspberry pi for the RF listening component and host the ham2mon-gui on a Digital Ocean VPS.
