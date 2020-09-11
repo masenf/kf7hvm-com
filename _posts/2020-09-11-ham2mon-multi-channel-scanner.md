@@ -3,7 +3,8 @@ layout: post
 title: ham2mon multi-channel scanner on macOS
 ---
 
-This setup allows for the automatic capture, archive, and playback of narrowband FM signals.
+This setup allows for the automatic simultaneous capture of multiple narrowband FM signals.
+The ham2mon-gui enables easy archiving and playback of captured files.
 Primarily I'm using it to listen to every 2 meter repeater within hearing distance to my
 home QTH of Longview, WA.
 
