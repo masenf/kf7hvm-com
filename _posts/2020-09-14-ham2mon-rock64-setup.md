@@ -28,7 +28,7 @@ git clone https://github.com/madengr/ham2mon.git
 git clone https://github.com/slavik0329/ham2mon-gui.git
 ```
 
-* [blacklist the default driver RTL SDR](https://gist.github.com/matix2120/a58976b7cca97f7ba3f22998e925a7f5)
+* For RTL SDR: [blacklist the default driver and build rtl_sdr](https://gist.github.com/matix2120/a58976b7cca97f7ba3f22998e925a7f5)
 
 
 # Problems
