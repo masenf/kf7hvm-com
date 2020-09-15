@@ -10,7 +10,7 @@ single board computer.
 
 # [Demo](http://sdrock.0x26.net:8080/)
 
-* Up as of 2020-09-14
+* http://sdrock.0x26.net:8080/ [Up as of 2020-09-14]
 * Audio quality may vary between recordings the settings were tweaked
 
 # Deploy steps
