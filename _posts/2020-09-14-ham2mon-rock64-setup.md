@@ -10,7 +10,7 @@ single board computer.
 
 # [Demo](http://sdrock.0x26.net:8080/)
 
-* http://sdrock.0x26.net:8080/ [Up as of 2020-09-14]
+* [http://sdrock.0x26.net:8080/](http://sdrock.0x26.net:8080/) [Up as of 2020-09-14]
 * Audio quality may vary between recordings the settings were tweaked
 
 # Deploy steps
@@ -28,7 +28,7 @@ git clone https://github.com/madengr/ham2mon.git
 git clone https://github.com/slavik0329/ham2mon-gui.git
 ```
 
-* blacklist the default driver RTL SDR: https://gist.github.com/matix2120/a58976b7cca97f7ba3f22998e925a7f5
+* [blacklist the default driver RTL SDR](https://gist.github.com/matix2120/a58976b7cca97f7ba3f22998e925a7f5)
 
 
 # Problems
