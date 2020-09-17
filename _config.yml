@@ -7,8 +7,8 @@ name: KF7HVM
 
 # Short bio or description (displayed in the header)
 #description: "Listening 147.26 [+ 114.8] / 146.52"
-description: "Listening 147.26 [+ 114.8]"
-#description: off the air
+#description: "Listening 147.26 [+ 114.8]"
+description: off the air
 #description: "Linux User Net 147.04 [+ 100]"
 #description: scanning...
 
