@@ -19,13 +19,13 @@ Yaesu FT-2980 with roof mounted 5/8 wave vertical
 
 #### SDR Scanner
 
-<img src="images/rtl-sdr.jpg" alt="rtl-sdr plugged into rock64">
+<img src="/images/rtl-sdr.jpg" alt="rtl-sdr plugged into rock64">
 
 I have this attached to an antenna switch and turn it on when I'm not operating the Yaesu.
 
 ### Mobile
 
-<img src="images/kenwood-th-k20a.jpg" alt="kenwood th-k20a">
+<img src="/images/kenwood-th-k20a.jpg" alt="kenwood th-k20a">
 
 Rock solid single band FM transceiver.
 
