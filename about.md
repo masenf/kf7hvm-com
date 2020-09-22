@@ -23,9 +23,9 @@ Yaesu FT-2980 with roof mounted 5/8 wave vertical
 
 I have this attached to an antenna switch and turn it on when I'm not operating the Yaesu.
 
-### Mobile
+### Handheld
 
-<img src="/images/kenwood-th-k20a.jpg" alt="kenwood th-k20a">
+<img src="/images/kenwood-th-k20a.jpg" alt="kenwood th-k20a" width=400>
 
 Rock solid single band FM transceiver.
 
