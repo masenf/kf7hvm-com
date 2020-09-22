@@ -12,9 +12,9 @@ regardless of which unit I'm operating.
 
 _Last updated 2020-09-22_
 
-* [Master list, excel format](../assets/2020_09_22_Longview-centric_Frequencies.xlsx)
-  * [CSV export](../assets/2020_09_22_Longview-centric_Frequencies.csv)
-* [Baofeng/chirp csv](../assets/2020_09_22_baofeng.csv) (this is only a subset)
+* [Master list, excel format](/assets/2020_09_22_Longview-centric_Frequencies.xlsx)
+  * [CSV export](/assets/2020_09_22_Longview-centric_Frequencies.csv)
+* [Baofeng/chirp csv](/assets/2020_09_22_baofeng.csv) (this is only a subset)
 
 ## Methodology
 
@@ -42,10 +42,10 @@ mobile, and handheld - hiking, etc).
 My kenwood radios are limited to 6 characters on the display, so
 this presents some interesting challenges.
 
-For 4 letter IDs, I prefer <CALL> <LOCATION>. If there are multiple
-repeaters with the same call, I tend to lookup the repeater owner's
-website and number the repeaters in the same order listed on their
-site.
+For 4 letter IDs, I prefer `<CALL> <LOCATION>` (like `W7DG L`).
+If there are multiple repeaters with the same call, I tend to lookup the
+repeater owner's website and number the repeaters in the same order listed on
+their site.
 
 For 5 letter IDs, I will leave the space out.
 
