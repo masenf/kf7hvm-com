@@ -9,6 +9,7 @@ Southwest Washington and Northwest Oregon.
 
 * Home Repeater: 147.26 Mhz \[+ 114.8\] [W7DG Repeater](http://www.w7dg.org/w7dgreference.html)
 * Simplex: 146.52 Mhz (National 2m FM Calling Frequency)
+* [**Longview-centric Frequencies**](posts/2020-09-22-longview-centric-frequencies.md)
 
 ### Base Station
 
