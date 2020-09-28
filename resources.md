@@ -9,3 +9,4 @@ title: Resources
   * A great introduction to antennas in non-technical terms
 * [HF "random wire" antenna length](http://udel.edu/~mm/ham/randomWire/)
   * Useful graphs show which wire lengths to avoid for "random wire"
+* [K5OE Eggbeater Satellite Antenna](http://wb5rmg.somenet.net/k5oe/Eggbeater_2.html)
