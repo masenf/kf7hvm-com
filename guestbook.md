@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: foo
 comments: true
 title: Guestbook
 ---
