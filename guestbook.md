@@ -4,4 +4,4 @@ comments: true
 title: Guestbook
 ---
 
-# Leave a public message
+_all messages are public_
