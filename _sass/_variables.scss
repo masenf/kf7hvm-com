@@ -18,6 +18,11 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$base-font-family: $helvetica;
+$base-font-weight: normal;
+$base-line-height: 1em;
+$text-color: $darkGray;
+$background-color: $white;
 
 // Mobile breakpoints
 @mixin mobile {
