@@ -39,7 +39,8 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
-      {% if page.comments == true And page.slug %}
+      {% unless page.slug %}{% assign page.slug = page.title | slugify %}
+      {% if page.comments == true %}
         {% include comments.html %}
       {% endif %}
     </div>
