@@ -38,3 +38,13 @@ Rock solid single band FM transceiver.
 ### Contact me
 
 [kf7hvm@0x26.net](mailto:kf7hvm@0x26.net)
+
+### About this Site
+
+This site is statically generated with [Jekyll](https://jekyllrb.com/)
+and hosted by [Github Pages](https://pages.github.com/). Comments are
+processed by [Staticman](/_posts/2020-09-29-staticman-comments.md) and
+committed directly to the [kf7hvm-com](https://github.com/masenf/kf7hvm-com)
+repository.
+
+The theme is based on [jekyll-now](https://github.com/barryclark/jekyll-now).
