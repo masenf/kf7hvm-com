@@ -13,7 +13,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 <pre>
-{{ page }}
+{{ page | jsonify }}
 </pre>
 
   {% include disqus.html %}
