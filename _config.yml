@@ -58,6 +58,15 @@ permalink: pretty
 # staticman (comments) configuration
 staticman_url: https://kf7hvm-staticman.herokuapp.com/v2/entry/masenf/kf7hvm-com/master/comments
 
+# allow comments on all posts
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true
+
 reCaptcha:
   siteKey: 6Lc8zdEZAAAAANBtDvewEwHHO7nl3Q9FLw6ZiPeg
   secret: E+HNep3Xsd39Y451JcL4DmahTm2xDyYZNHIrK5cGNRTrVkxIjZf4I0E+oji6Bw6xoyLd/0keLqnak+unV7aJy45RWazCM3gW1zVZysRRQ60U5EPGvZGkrY+XKo+QMncaL1tiQk74Y5sxm6oMe7QF9fj8d5082s90TQ80fCfHhQTmoQxh/N56djTGtW515c+x11A16xB66kSoSA6ByShakmHEjapBg7cvtcu6GgJ5Y5itf+IxycSbhS9X6ZPOOobvORvpMtzCQdzKgJ6NJVNdkeWvPieCShiBZhhyEzT0O5GduHoaE8HIBpGauM8+CXvbYqnU5e6HXR6k70D24TSZPiJbkBTPXEtc4YocWuNlJAN5LXUNBCTvxB83a285ttcqb4h85BOqq3hEZVWyobI7dbULegu64r/0MkSQrG2kwG7xTmORXlE/Fl9IV98GD7F8wUaN1z+SoteTXcxQlpK/EgMd4OSdS08xlJqh0F4mUo1yJVgVi+ijjSumxXk4bVZvPscPJbdMeuBgmA/MC3PZOMeAe9uwvrn5QejI4bZpcLLlCeKU00hbbj9NC333F3rxATSa4Ku+LAX5+4ZMlViV3hsrt/ZTY2Uk+IE284dZ+UfdPcbgNTsXvO6x3Oda2jkOuNDLsR4wYf9Ul8ba26zwNdSXsJL0Y5Ing69Zaf1rl3U=
