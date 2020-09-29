@@ -53,11 +53,19 @@ url: http://www.kf7hvm.com
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
+permalink: pretty
+
+# staticman (comments) configuration
+staticman_url: https://kf7hvm-staticman.herokuapp.com/v2/entry/masenf/kf7hvm-com/master/comments
+
+reCaptcha:
+  siteKey: 6Le_mtEZAAAAAGTycuTrAmpY5V3IGGAjhEL7pi2I
+  secret: VG5i059JjY5RJHYuuxyxXhnIaKLgrRv+LQpdoYrde4yEHGxkfqKp+Yt41hrK+LiG1toqsiG7UGGrl5irT/+/FwtXwDUtsU/L2etitBLR4ILyRosSenqgKomKJHf1tMdYL6K2bGeq+hW/nnR6tjowqIQUscXXTTnCOkWXrLtf0rjl4CxreLGSdho1xLh991AeBDZcjLpBLFUwqmUzl9jlYZStpRlxjG3z4ErX0Z2N/8q89QgsYHnN7/U4TF5XgkU42WrqI6PE+legWcYXRvCz4m4qpY0O0jRPB7cWcT4MZPJai2bdUX5KdcILQHYZjpLFsN9pDfP6c0QIsd5x7jCPyWAU9ORwFAlzzogb5OuQiv5iGJ5E5K/9R+rFXlrXoXZznXAzBMkawr3xx3VAq/uxswMdn1WOwAcQ40Gir4UqLIJ86PXxeSAQqcoYg2ZiESs8sNYHuficu6rhtFHQY/VZ3YV6JQT0Y/yp601RPdPRiHqroCQLvicMQQNmmw66joTJiAMpVYiYYvHj9hVuUja6pK0oA20HKOkYtxnnhhshXuTGSmncN/Va4GWcwuyBceV7YGhKmzCXgtm5T/awmz6wNFCwaPF6Em+8g+N1tMD9WoCz2vIOamTYtLAI43hGzMRv4Ten3rjVi0Vo1rh9sskvyfnvKfZX+a5ZGDY0OQCBpQA=
+
+
 #
 # !! You don't need to change any of the configuration flags below !!
 #
-
-permalink: pretty
 
 # The release of Jekyll Now that you're using
 version: v1.2.0

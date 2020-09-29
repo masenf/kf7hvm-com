@@ -1,0 +1,64 @@
+# Name of the property. You can have multiple properties with completely
+# different config blocks for different sections of your site.
+# For example, you can have one property to handle comment submission and
+# another one to handle posts.
+comments:
+  allowedFields: ["name", "email", "url", "message", "replying_to_uid"]
+  branch: master
+  commitMessage: "Comment from {fields.name} on {options.slug}"
+  filename: "entry{@timestamp}"
+  format: "yaml"
+
+  # List of fields to be populated automatically by Staticman and included in
+  # the data file. Keys are the name of the field. The value can be an object
+  # with a `type` property, which configures the generated field, or any value
+  # to be used directly (e.g. a string, number or array)
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  # Whether entries need to be appproved before they are published to the main
+  # branch. If set to `true`, a pull request will be created for your approval.
+  # Otherwise, entries will be published to the main branch automatically.
+  moderation: false
+
+  # Name of the site. Used in notification emails.
+  name: "KF7HVM"
+
+  # Notification settings. When enabled, users can choose to receive notifications
+  # via email when someone adds a reply or a new comment. This requires an account
+  # with Mailgun, which you can get for free at http://mailgun.com.
+  #notifications:
+    # Enable notifications
+    #enabled: true
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun API key
+    #apiKey: "1q2w3e4r"
+
+    # (!) ENCRYPTED
+    #
+    # Mailgun domain (encrypted)
+    #domain: "4r3e2w1q"
+
+  # (*) REQUIRED
+  #
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "_data/comments/{options.slug}"
+
+  # Names of required fields. If any of these isn't in the request or is empty,
+  # an error will be thrown.
+  requiredFields: ["name", "message"]
+
+  # List of transformations to apply to any of the fields supplied. Keys are
+  # the name of the field and values are possible transformation types.
+  transforms:
+    email: md5
+
+  reCaptcha:
+    enabled: true
+    siteKey: 6Le_mtEZAAAAAGTycuTrAmpY5V3IGGAjhEL7pi2I
+    secret: VG5i059JjY5RJHYuuxyxXhnIaKLgrRv+LQpdoYrde4yEHGxkfqKp+Yt41hrK+LiG1toqsiG7UGGrl5irT/+/FwtXwDUtsU/L2etitBLR4ILyRosSenqgKomKJHf1tMdYL6K2bGeq+hW/nnR6tjowqIQUscXXTTnCOkWXrLtf0rjl4CxreLGSdho1xLh991AeBDZcjLpBLFUwqmUzl9jlYZStpRlxjG3z4ErX0Z2N/8q89QgsYHnN7/U4TF5XgkU42WrqI6PE+legWcYXRvCz4m4qpY0O0jRPB7cWcT4MZPJai2bdUX5KdcILQHYZjpLFsN9pDfP6c0QIsd5x7jCPyWAU9ORwFAlzzogb5OuQiv5iGJ5E5K/9R+rFXlrXoXZznXAzBMkawr3xx3VAq/uxswMdn1WOwAcQ40Gir4UqLIJ86PXxeSAQqcoYg2ZiESs8sNYHuficu6rhtFHQY/VZ3YV6JQT0Y/yp601RPdPRiHqroCQLvicMQQNmmw66joTJiAMpVYiYYvHj9hVuUja6pK0oA20HKOkYtxnnhhshXuTGSmncN/Va4GWcwuyBceV7YGhKmzCXgtm5T/awmz6wNFCwaPF6Em+8g+N1tMD9WoCz2vIOamTYtLAI43hGzMRv4Ten3rjVi0Vo1rh9sskvyfnvKfZX+a5ZGDY0OQCBpQA=
