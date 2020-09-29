@@ -39,7 +39,7 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
-      {% if page.comments == true And page.slug And page.slug != "" And page.slug != nil %}
+      {% if page.comments == true And page.slug != "" And page.slug != nil %}
         {% include comments.html %}
       {% endif %}
     </div>
