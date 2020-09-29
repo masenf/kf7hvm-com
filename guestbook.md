@@ -4,4 +4,5 @@ comments: true
 title: Guestbook
 ---
 
-_all messages are public_
+Thanks for stopping by, leave a general comment and say hello.
+_All messages submitted are immediately public_.
