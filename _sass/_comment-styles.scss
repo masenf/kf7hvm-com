@@ -68,7 +68,7 @@ textarea {
     margin: 4px 0px 0px 0px;
 }
 button:hover {
-    background-color: $grey;
+    background-color: $gray;
     color: white;
 }
 
@@ -81,7 +81,7 @@ button:hover {
     padding: 0px 0px 14px 0px;
 }
 .comment__author {
-    color: $grey;
+    color: $gray;
 }
 .comment__date {
     font-size: $small-font-size;
@@ -91,14 +91,14 @@ button:hover {
 }
 .comment__meta {
     text-align: left;
-    color: $grey;
+    color: $gray;
     font-size: $small-font-size;
 }
 .comments__existing {
     padding: 8px 0px 0px 0px;
 }
 .comment {
-    border-top: 0px solid $lightGrey;
+    border-top: 0px solid $lightGray;
     padding: 0px 0px 0px 0px;
     margin-bottom: 1em;
 }
@@ -106,7 +106,7 @@ button:hover {
     margin-left: 3em;
 }
 .comment__reply-link {
-    color: $grey;
+    color: $gray;
     font-size: $small-font-size;
     cursor: pointer;
 }
