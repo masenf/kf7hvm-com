@@ -1,5 +1,7 @@
+{% assign commentslug = page.path | slugify %}
 <section class="comments" id="comment-section">
   <hr>
+  commentslug is {% commentslug %}
   {% if site.data.comments[commentslug] %}
   <!-- Existing comments -->
   <div class="comments__existing">

@@ -39,7 +39,6 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
-      {% assign commentslug = page.path | slugify %}
       {% if page.comments == true %}
         {% include comments.html %}
       {% endif %}
