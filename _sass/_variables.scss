@@ -24,9 +24,11 @@ $base-line-height: 1em;
 $text-color: $darkGray;
 $background-color: $white;
 
+$container_max_width: 800px;
+
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
+  @media screen and (max-width: 780px) {
     @content;
   }
 }
