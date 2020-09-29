@@ -39,7 +39,7 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
-      {% unless page.slug %}{% assign page.slug = page.title | slugify %}
+      {% unless page.slug %}{% assign page.slug = page.title | slugify %}{% endunless %}
       {% if page.comments == true %}
         {% include comments.html %}
       {% endif %}
