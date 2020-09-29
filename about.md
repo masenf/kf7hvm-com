@@ -15,18 +15,18 @@ Southwest Washington and Northwest Oregon.
 
 Yaesu FT-2980 with roof mounted 5/8 wave vertical
 
-<img src="/images/antenna_roof.jpg" alt="me standing on my roof next to the 2m vertical">
-<img src="/images/yaesu-ft2980.jpg" alt="yaesu FT-2980">
+[<img src="/images/antenna_roof_thumb.jpg" alt="me standing on my roof next to the 2m vertical">](/images/antenna_roof.jpg)
+[<img src="/images/yaesu-ft2980_thumb.jpg" alt="yaesu FT-2980">](/images/yaesu-ft2980.jpg)
 
 #### SDR Scanner
 
-<img src="/images/rtl-sdr.jpg" alt="rtl-sdr plugged into rock64">
+[<img src="/images/rtl-sdr_thumb.jpg" alt="rtl-sdr plugged into rock64">](/images/rtl-sdr.jpg)
 
 I have this attached to an antenna switch and turn it on when I'm not operating the Yaesu.
 
 ### Handheld
 
-<img src="/images/kenwood-th-k20a.jpg" alt="kenwood th-k20a" width=400>
+[<img src="/images/kenwood-th-k20a_thumb.jpg" alt="kenwood th-k20a">](/images/kenwood-th-k20a.jpg)
 
 Rock solid single band FM transceiver.
 
