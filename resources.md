@@ -3,6 +3,12 @@ layout: page
 title: Resources
 ---
 
+# Digital Radio
+
+## DMR
+
+* [Re: Duplex v Simplex Hotspots ?](https://groups.io/g/GeorgiaDMR/message/455)
+
 # Antennas
 
 * [N4JA Antenna Book](http://www.hamuniverse.com/n4jaantennabook.html) for non-technical hams
