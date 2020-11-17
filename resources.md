@@ -7,6 +7,7 @@ title: Resources
 
 ## DMR
 
+* [Intro to DMR (Miklor)](https://www.miklor.com/DMR/ppt/DMR-BasicTutorial.pdf) (PDF)
 * [Re: Duplex v Simplex Hotspots ?](https://groups.io/g/GeorgiaDMR/message/455)
 
 # Antennas
