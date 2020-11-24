@@ -14,7 +14,7 @@ permalink: /qso/
     <td>Location</td>
     <td>Comment</td>
   </tr>
-{% assign qsos = site.data.qso | sort: 'date' | reverse %}
+{% assign qsos = site.data["qso"] | sort: 'date' | reverse %}
 {% for qso in qsos %}
   <tr>
     <td>{{ qso.date }}</td>
