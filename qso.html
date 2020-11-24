@@ -1,0 +1,29 @@
+---
+layout: page
+title: QSO Logs
+permalink: /qso/
+---
+
+<table>
+  <tr>
+    <td>Time</td>
+    <td>My Location</td>
+    <td>Frequency</td>
+    <td>Mode</td>
+    <td>Call</td>
+    <td>Location</td>
+    <td>Comment</td>
+  </tr>
+{% assign qsos = site.data.qso | sort: 'date' | reverse %}
+{% for qso in qsos %}
+  <tr>
+    <td>{{ qso.date }}</td>
+    <td>{{ qso.m_loc }}</td>
+    <td>{{ qso.frequency }}</td>
+    <td>{{ qso.mode }}</td>
+    <td>{{ qso.t_call }}</td>
+    <td>{{ qso.t_loc }}</td>
+    <td>{{ qso.comment }}</td>
+  </tr>
+{% endfor %}
+</table>

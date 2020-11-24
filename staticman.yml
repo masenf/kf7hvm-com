@@ -62,3 +62,42 @@ comments:
     enabled: true
     siteKey: 6Lc8zdEZAAAAANBtDvewEwHHO7nl3Q9FLw6ZiPeg
     secret: E+HNep3Xsd39Y451JcL4DmahTm2xDyYZNHIrK5cGNRTrVkxIjZf4I0E+oji6Bw6xoyLd/0keLqnak+unV7aJy45RWazCM3gW1zVZysRRQ60U5EPGvZGkrY+XKo+QMncaL1tiQk74Y5sxm6oMe7QF9fj8d5082s90TQ80fCfHhQTmoQxh/N56djTGtW515c+x11A16xB66kSoSA6ByShakmHEjapBg7cvtcu6GgJ5Y5itf+IxycSbhS9X6ZPOOobvORvpMtzCQdzKgJ6NJVNdkeWvPieCShiBZhhyEzT0O5GduHoaE8HIBpGauM8+CXvbYqnU5e6HXR6k70D24TSZPiJbkBTPXEtc4YocWuNlJAN5LXUNBCTvxB83a285ttcqb4h85BOqq3hEZVWyobI7dbULegu64r/0MkSQrG2kwG7xTmORXlE/Fl9IV98GD7F8wUaN1z+SoteTXcxQlpK/EgMd4OSdS08xlJqh0F4mUo1yJVgVi+ijjSumxXk4bVZvPscPJbdMeuBgmA/MC3PZOMeAe9uwvrn5QejI4bZpcLLlCeKU00hbbj9NC333F3rxATSa4Ku+LAX5+4ZMlViV3hsrt/ZTY2Uk+IE284dZ+UfdPcbgNTsXvO6x3Oda2jkOuNDLsR4wYf9Ul8ba26zwNdSXsJL0Y5Ing69Zaf1rl3U=
+
+logentry:
+  allowedFields: ["m_call", "m_loc", "frequency", "start", "t_call", "t_loc", "mode", "machine", "comment", "notes"]
+  branch: master
+  commitMessage: "QSO with {fields.t_call} on {fields.frequency}"
+  filename: "qso{@timestamp}"
+  format: "yaml"
+
+  # List of fields to be populated automatically by Staticman and included in
+  # the data file. Keys are the name of the field. The value can be an object
+  # with a `type` property, which configures the generated field, or any value
+  # to be used directly (e.g. a string, number or array)
+  generatedFields:
+    date:
+      type: date
+      options:
+        format: "timestamp-seconds"
+
+  # Whether entries need to be appproved before they are published to the main
+  # branch. If set to `true`, a pull request will be created for your approval.
+  # Otherwise, entries will be published to the main branch automatically.
+  moderation: false
+
+  # Name of the site. Used in notification emails.
+  name: "KF7HVM"
+
+  # (*) REQUIRED
+  #
+  # Destination path (directory) for the data files. Accepts placeholders.
+  path: "_data/qso"
+
+  # Names of required fields. If any of these isn't in the request or is empty,
+  # an error will be thrown.
+  requiredFields: ["m_call", "frequency", "t_call"]
+
+  reCaptcha:
+    enabled: true
+    siteKey: 6Lc8zdEZAAAAANBtDvewEwHHO7nl3Q9FLw6ZiPeg
+    secret: E+HNep3Xsd39Y451JcL4DmahTm2xDyYZNHIrK5cGNRTrVkxIjZf4I0E+oji6Bw6xoyLd/0keLqnak+unV7aJy45RWazCM3gW1zVZysRRQ60U5EPGvZGkrY+XKo+QMncaL1tiQk74Y5sxm6oMe7QF9fj8d5082s90TQ80fCfHhQTmoQxh/N56djTGtW515c+x11A16xB66kSoSA6ByShakmHEjapBg7cvtcu6GgJ5Y5itf+IxycSbhS9X6ZPOOobvORvpMtzCQdzKgJ6NJVNdkeWvPieCShiBZhhyEzT0O5GduHoaE8HIBpGauM8+CXvbYqnU5e6HXR6k70D24TSZPiJbkBTPXEtc4YocWuNlJAN5LXUNBCTvxB83a285ttcqb4h85BOqq3hEZVWyobI7dbULegu64r/0MkSQrG2kwG7xTmORXlE/Fl9IV98GD7F8wUaN1z+SoteTXcxQlpK/EgMd4OSdS08xlJqh0F4mUo1yJVgVi+ijjSumxXk4bVZvPscPJbdMeuBgmA/MC3PZOMeAe9uwvrn5QejI4bZpcLLlCeKU00hbbj9NC333F3rxATSa4Ku+LAX5+4ZMlViV3hsrt/ZTY2Uk+IE284dZ+UfdPcbgNTsXvO6x3Oda2jkOuNDLsR4wYf9Ul8ba26zwNdSXsJL0Y5Ing69Zaf1rl3U=
