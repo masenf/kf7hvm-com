@@ -7,22 +7,25 @@ permalink: /qso/
 <table>
   <tr>
     <td>Time</td>
-    <td>My Location</td>
     <td>Frequency</td>
-    <td>Mode</td>
-    <td>Call</td>
-    <td>Location</td>
+    <td>Station</td>
     <td>Comment</td>
   </tr>
-{% assign qsos = site.data["qso"] | sort: 'date' | reverse %}
+{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "date" %}
 {% for qso in qsos %}
   <tr>
-    <td>{{ qso.date }}</td>
-    <td>{{ qso.m_loc }}</td>
-    <td>{{ qso.frequency }}</td>
-    <td>{{ qso.mode }}</td>
-    <td>{{ qso.t_call }}</td>
-    <td>{{ qso.t_loc }}</td>
+    <td>
+      <div class="qso-date">{{- qso.date | date_to_xmlschema -}}</div>
+      <div class="qso-m_loc">{{ qso.m_loc }}</div>
+    </td>
+    <td>
+      <div class="qso-frequency">{{ qso.frequency }}</div>
+      <div class="qso-mode">{{ qso.mode }}</div>
+    </td>
+    <td>
+      <div class="qso-t_call">{{ qso.t_call }}</div>
+      <div class="qso-t_loc">{{ qso.t_loc }}</div>
+    </td>
     <td>{{ qso.comment }}</td>
   </tr>
 {% endfor %}
