@@ -106,3 +106,8 @@ exclude:
   - LICENSE
   - README.md
   - CNAME
+  - node_modules
+  - package.json
+  - package-lock.json
+  - webpack
+  - webpack.config.js
