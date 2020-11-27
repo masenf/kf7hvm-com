@@ -5,10 +5,6 @@ class FrequencyInput extends Component {
 
     constructor(props) {
         super(props)
-        this.state = {
-            value: '',
-            selected_item: undefined,
-        }
     }
 
     render() {
@@ -30,15 +26,13 @@ class FrequencyInput extends Component {
                         {`${item.Frequency} ${item.Callsign} - ${item["Nearest City"]}, ${item.State}`}
                     </div>
                 }
-                value={this.state.value}
+                value={this.props.value}
                 onChange={e => {
-                    this.setState({value: e.target.value});
+                    this.props.setFrequency(e.target.value);
                     this.props.setSelectedMachine(undefined);
                 }}
                 onSelect={(value, item) => {
-                    this.setState({
-                        value: value,
-                    });
+                    this.props.setFrequency(value)
                     this.props.setSelectedMachine(item);
                 }}
             />

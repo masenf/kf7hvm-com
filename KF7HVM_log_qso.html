@@ -11,7 +11,6 @@ permalink: /KF7HVM_log_qso/
   <input type="hidden" name="options[reCaptcha][siteKey]" value="{{ site.reCaptcha.siteKey }}">
   <input type="hidden" name="options[reCaptcha][secret]"  value="{{ site.reCaptcha.secret }}">
 
-
   <div class="textfield narrowfield">
     <label for="comment-form-m_call">My Call
       <input class="textfield__input" type="text" id="comment-form-m_call" value="KF7HVM" disabled />
@@ -25,26 +24,7 @@ permalink: /KF7HVM_log_qso/
     </label>
   </div>
 
-  <div class="textfield narrowfield">
-    <label for="comment-form-frequency">Frequency
-      <input class="textfield__input" name="fields[frequency]" type="number" step="0.0001" id="comment-form-frequency" required />
-    </label>
-  </div>
-
-  <div class="textfield narrowfield">
-    <label for="comment-form-mode">Mode
-      <select class="textfield__input" name="fields[mode]" id="comment-form-mode">
-        <option value="FM">FM</option>
-        <option value="DMR">DMR</option>
-      </select>
-    </label>
-  </div>
-
-  <div class="textfield narrowfield">
-    <label for="comment-form-t_call">Their Call
-      <input class="textfield__input" name="fields[t_call]" type="text" id="comment-form-t_call" value="" required/>
-    </label>
-  </div>
+  <div id="qso-form"></div>
 
   <div class="textfield narrowfield">
     <label for="comment-form-t_loc">Their Location
@@ -54,13 +34,13 @@ permalink: /KF7HVM_log_qso/
 
   <div class="textfield">
     <label for="comment-form-comment">Public Comment
-      <textarea class="textfield__input" name="fields[comment]" id="comment-form-comment" placeholder="Public Comments" required rows="6"></textarea>
+      <textarea class="textfield__input" name="fields[comment]" id="comment-form-comment" placeholder="Public Comments" rows="6"></textarea>
     </label>
   </div>
 
   <div class="textfield">
     <label for="comment-form-notes">Private Notes
-      <textarea class="textfield__input" name="fields[notes]" id="comment-form-notes" placeholder="Private Notes" required rows="6"></textarea>
+      <textarea class="textfield__input" name="fields[notes]" id="comment-form-notes" placeholder="Private Notes" rows="6"></textarea>
     </label>
   </div>
 
@@ -98,6 +78,7 @@ permalink: /KF7HVM_log_qso/
 <script async src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 <script async src="{{ '/assets/main.js' | relative_url }}"></script>
 <script async src="https://www.google.com/recaptcha/api.js"></script>
+<script async src="{{ '/assets/js/bundle.js' | relative_url }}"></script>
 
 {% comment %}
 	from: https://github.com/eduardoboucas/popcorn/blob/gh-pages/_includes/modal.html

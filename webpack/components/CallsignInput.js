@@ -7,7 +7,6 @@ import useFetch from "./useFetch";
 const FCC_lic_view = "https://data.fcc.gov/api/license-view/basicSearch/getLicenses?format=jsonp&searchValue="
 
 export default function CallsignInput (props) {
-    const [value, setValue] = useState('');
     const [lookupResult, setLookupResult] = useState();
     const fetchedCallsigns = useFetch("/assets/callsigns.json");
     const [queriedCallsigns, setQueriedCallsigns] = useState({});
@@ -28,16 +27,16 @@ export default function CallsignInput (props) {
     }, [fetchedCallsigns.status, queriedCallsigns]);
 
     useEffect(() => {
-        if (!value) {
+        if (!props.value) {
             return;
         }
-        if (queriedCallsigns[value.toUpperCase()]) {
-            setLookupResult(queriedCallsigns[value.toUpperCase()].licName);
+        if (queriedCallsigns[props.value.toUpperCase()]) {
+            setLookupResult(queriedCallsigns[props.value.toUpperCase()].licName);
             return;
         }
         const timeOutId = setTimeout(() => {
-            console.log(`Making JSONP request for ${value}...`)
-            fetchJsonp(FCC_lic_view + value, {
+            console.log(`Making JSONP request for ${props.value}...`)
+            fetchJsonp(FCC_lic_view + props.value, {
                 jsonpCallback: 'jsonCallback',
                 timeout: 20000
             })
@@ -56,8 +55,8 @@ export default function CallsignInput (props) {
                                 setQueriedCallsigns(newCallsigns);
                             }
                         }
-                        if (newCallsigns[value.toUpperCase()]) {
-                            setLookupResult(newCallsigns[value.toUpperCase()].licName);
+                        if (newCallsigns[props.value.toUpperCase()]) {
+                            setLookupResult(newCallsigns[props.value.toUpperCase()].licName);
                         }
                         if (result.Errors) {
                             console.log(JSON.stringify(result.Errors.Err))
@@ -65,11 +64,11 @@ export default function CallsignInput (props) {
                     }
                 )
                 .catch(error => {
-                    console.error(`Error querying ${value}: ${error}`);
+                    console.error(`Error querying ${props.value}: ${error}`);
                 });
         }, 1000);
         return () => clearTimeout(timeOutId);
-    }, [value]);
+    }, [props.value]);
 
     return (
         <div>
@@ -89,12 +88,12 @@ export default function CallsignInput (props) {
                         {item}
                     </div>
                 }
-                value={value}
+                value={props.value}
                 onChange={e => {
-                    setValue(e.target.value);
+                    props.setCallsign(e.target.value);
                     setLookupResult("");
                 }}
-                onSelect={(value, item) => setValue(value)}
+                onSelect={(value, item) => props.setCallsign(value)}
             />
             <div className="name-lookup">{lookupResult}</div>
         </div>

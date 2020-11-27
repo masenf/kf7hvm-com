@@ -67,7 +67,7 @@ logentry:
   allowedFields: ["m_call", "m_loc", "frequency", "start", "t_call", "t_loc", "mode", "machine", "comment", "notes"]
   branch: master
   commitMessage: "QSO with {fields.t_call} on {fields.frequency}"
-  filename: "qso{@timestamp}"
+  filename: "qso{@timestamp}-{fields.t_call}-{fields.frequency}"
   format: "yaml"
 
   # List of fields to be populated automatically by Staticman and included in
