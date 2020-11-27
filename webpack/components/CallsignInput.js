@@ -3,7 +3,7 @@ import ReactAutocomplete from 'react-autocomplete'
 import fetchJsonp from "fetch-jsonp";
 import useFetch from "./useFetch";
 
-// TODO: this API sucks and fails > 50% of the time
+// TODO: this API sucks and fails > 50% of the timetch
 const FCC_lic_view = "https://data.fcc.gov/api/license-view/basicSearch/getLicenses?format=jsonp&searchValue="
 
 export default function CallsignInput (props) {
@@ -36,7 +36,7 @@ export default function CallsignInput (props) {
             return;
         }
         const timeOutId = setTimeout(() => {
-            console.log("Making JSONP request...")
+            console.log(`Making JSONP request for ${value}...`)
             fetchJsonp(FCC_lic_view + value, {
                 jsonpCallback: 'jsonCallback',
                 timeout: 20000
@@ -59,8 +59,14 @@ export default function CallsignInput (props) {
                         if (newCallsigns[value.toUpperCase()]) {
                             setLookupResult(newCallsigns[value.toUpperCase()].licName);
                         }
+                        if (result.Errors) {
+                            console.log(JSON.stringify(result.Errors.Err))
+                        }
                     }
                 )
+                .catch(error => {
+                    console.error(`Error querying ${value}: ${error}`);
+                });
         }, 1000);
         return () => clearTimeout(timeOutId);
     }, [value]);
