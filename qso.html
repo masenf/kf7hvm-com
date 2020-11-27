@@ -11,7 +11,7 @@ permalink: /qso/
     <td>Station</td>
     <td>Comment</td>
   </tr>
-{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "start" | reversed %}
+{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "start" | reverse %}
 {% for qso in qsos %}
   <tr>
     <td>
