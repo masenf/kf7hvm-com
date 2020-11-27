@@ -1,0 +1,13 @@
+_id: cb5f7c20-30f7-11eb-bbd4-f9553754640e
+m_call: KF7HVM
+m_loc: Poplar
+start: '1606330200'
+frequency: '441.70000'
+machine: '41,505'
+mode: DMR
+t_call: AB7I
+t_loc: ''
+comment: '"SHARI" all star node radio for rpi'
+notes: ''
+hp: ''
+date: 1606512639
