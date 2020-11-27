@@ -11,11 +11,15 @@ permalink: /qso/
     <td>Station</td>
     <td>Comment</td>
   </tr>
-{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "date" %}
+{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "start" | reversed %}
 {% for qso in qsos %}
   <tr>
     <td>
-      <div class="qso-date">{{- qso.date | date_to_xmlschema -}}</div>
+      {% if qso.start %}
+        <div class="qso-date">{{- qso.start | date_to_xmlschema -}}</div>
+      {% else %}
+        <div class="qso-date">{{- qso.date | date_to_xmlschema -}}</div>
+      {% endif %}
       <div class="qso-m_loc">{{ qso.m_loc }}</div>
     </td>
     <td>
