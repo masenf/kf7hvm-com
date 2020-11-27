@@ -1,3 +1,3 @@
 # QSO
 
-Raw QSO log entries for KF7HVM
+Raw QSO log entries for KF7HVM.
