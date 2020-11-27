@@ -1,0 +1,8 @@
+---
+permalink: /assets/callsigns.json
+---
+[
+{% assign qsos = site.data.qso | where: "m_call","KF7HVM" | sort: "date" %}
+{% for qso in qsos %}"{{ qso.t_call }}"{% unless forloop.last %},{% endunless %}
+{% endfor %}
+]

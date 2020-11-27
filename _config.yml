@@ -111,3 +111,4 @@ exclude:
   - package-lock.json
   - webpack
   - webpack.config.js
+  - .idea
