@@ -1,0 +1,13 @@
+_id: 6c31eec0-31b7-11eb-99e7-5960a88821dd
+m_call: KF7HVM
+m_loc: Poplar
+start: '1606594823'
+frequency: '441.70000'
+machine: '41,505'
+mode: DMR
+t_call: W7HLO
+t_loc: ''
+comment: WA 2. Working on reducing re-PTT delay on an Openspot 3.
+notes: ''
+hp: ''
+date: 1606594943
