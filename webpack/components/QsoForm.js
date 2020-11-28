@@ -8,9 +8,7 @@ import CallsignInput from "./CallsignInput";
 export default function QsoForm (props) {
     const fetchedRepeaters = useFetch("/assets/repeaters.json");
     const [startDate, setStartDate] = useState(new Date());
-    const [frequency, setFrequency] = useState("");
     const [selectedMachine, setSelectedMachine] = useState(undefined);
-    const [callsign, setCallsign] = useState('');
 
     let selectedMachineKey = ""
     if (selectedMachine) {
@@ -37,14 +35,7 @@ export default function QsoForm (props) {
                     Frequency<br/>
                     <FrequencyInput
                         items={(fetchedRepeaters.status === "fetched" && fetchedRepeaters.data.results) || []}
-                        value={frequency}
-                        setFrequency={setFrequency}
                         setSelectedMachine={setSelectedMachine}
-                    />
-                    <input
-                        type="hidden"
-                        value={frequency}
-                        name="fields[frequency]"
                     />
                     <Repeater
                         item={selectedMachine}
@@ -65,16 +56,8 @@ export default function QsoForm (props) {
             </label>
             <div className="textfield narrowfield">
                 <label>
-                    Their Callsign<br/>
-                    <CallsignInput
-                        value={callsign}
-                        setCallsign={setCallsign}
-                        />
-                    <input
-                        type="hidden"
-                        value={callsign}
-                        name="fields[t_call]"
-                    />
+                    Their Call<br/>
+                    <CallsignInput />
                 </label>
             </div>
         </div>

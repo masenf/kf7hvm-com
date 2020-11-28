@@ -7,6 +7,7 @@ import useFetch from "./useFetch";
 const FCC_lic_view = "https://data.fcc.gov/api/license-view/basicSearch/getLicenses?format=jsonp&searchValue="
 
 export default function CallsignInput (props) {
+    const [callsign, setCallsign] = useState('');
     const [lookupResult, setLookupResult] = useState();
     const fetchedCallsigns = useFetch("/assets/callsigns.json");
     const [queriedCallsigns, setQueriedCallsigns] = useState({});
@@ -88,12 +89,13 @@ export default function CallsignInput (props) {
                         {item}
                     </div>
                 }
-                value={props.value}
+                value={callsign}
                 onChange={e => {
-                    props.setCallsign(e.target.value);
+                    setCallsign(e.target.value.toUpperCase());
                     setLookupResult("");
                 }}
-                onSelect={(value, item) => props.setCallsign(value)}
+                onSelect={(value, item) => setCallsign(value.toUpperCase())}
+                inputProps={{ name: "fields[t_call]" }}
             />
             <div className="name-lookup">{lookupResult}</div>
         </div>

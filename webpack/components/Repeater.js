@@ -18,7 +18,7 @@ function Repeater (props) {
                 href={`https://www.repeaterbook.com/repeaters/details.php?ID=${props.item["Rptr ID"]}&state_id=${props.item["State ID"]}`}
                 target="_blank">
                 <div className="repeater-container">
-                    <img class="icon-small" src="/images/wireless_antenna2.svg" />
+                    <img className="icon-small" src="/images/wireless_antenna2.svg" />
                     <div className="repeater-info">
                         <div className="repeater-access-info">
                             <div className="repeater-callsign">{props.item.Callsign}</div>
