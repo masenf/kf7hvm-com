@@ -7,8 +7,16 @@ permalink: /about/
 Amateur radio station KF7HVM operating primarily from Longview, WA and surrounding areas in
 Southwest Washington and Northwest Oregon.
 
+### Where to Find Me
+
 * Home Repeater: 147.26 Mhz \[+ 114.8\] [W7DG Repeater](http://www.w7dg.org/w7dgreference.html)
+* [DMR Oregon 1 (TG 3141)](http://pnwdigital.net/repeaters.html)
+  * I regularly monitor OR 1 and respond to calls nearly all day.
+  * Access through PNWDigital network or Brandmeister.
+* [W7BU Wickiup: 146.66 Mhz \[- 118.8\]](https://www.repeaterbook.com/repeaters/details.php?state_id=41&ID=176) - Not linked
+* [W7BU Nicolai: 146.76 \[- 118.8\]](https://www.repeaterbook.com/repeaters/details.php?ID=178&state_id=41) - [BeachNet Linked](https://w7buhams.club/)
 * Simplex: 146.52 Mhz (National 2m FM Calling Frequency)
+  * I mostly monitor .52 on road trips and while hiking.
 * [**Longview-centric Frequencies**](_posts/2020-09-22-longview-centric-frequencies.md)
 
 ### Base Station
