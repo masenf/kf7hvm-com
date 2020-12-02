@@ -27,7 +27,6 @@ usability, sharing, and wide export compatibility.
 
 # Upcoming Projects
 
-* Online DMR Codeplug editor
 * USB+standalone PTT switch w/ PC data+voice for Yaesu FT-2900
 * HF multiband wire dipole
 * Roll up J Pole (portable antenna)
