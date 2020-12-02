@@ -9,6 +9,10 @@ title: Projects
 * [ham2mon on macOS (overview)](/_posts/2020-09-11-ham2mon-multi-channel-scanner.md)
 * [ham2mon on rock64](/_posts/2020-09-14-ham2mon-rock64-setup.md)
 
+# [myCodeplug.com](http://mycodeplug.com)
+
+Landing page / planning for my online DMR code plug editor in early development.
+
 # [`dzcb`](https://github.com/masenf/dzcb/tree/rewrite)
 
 Pre-alpha DMR codeplug generator for TYT MD-UV380 and OpenGD77.
