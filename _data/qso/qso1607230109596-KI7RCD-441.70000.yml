@@ -4,7 +4,7 @@ m_loc: Poplar
 start: '1607229992'
 frequency: '441.70000'
 machine: '41,505'
-mode: FM
+mode: DMR
 t_call: KI7RCD
 t_loc: ''
 comment: OR 1. Regarding the brandmeister hotspot security password.
