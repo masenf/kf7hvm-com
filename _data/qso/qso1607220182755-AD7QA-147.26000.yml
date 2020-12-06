@@ -1,0 +1,16 @@
+_id: 2c0f4710-3767-11eb-b904-8fb99287f9b9
+m_call: KF7HVM
+m_loc: 'Longview, Mobile'
+start: '1607216400'
+frequency: '147.26000'
+machine: '53,408'
+mode: FM
+t_call: AD7QA
+t_loc: ''
+comment: >-
+  Discussing projects: Ham Clock - maybe perf issues on older raspi. Callwatch
+  scraper - written in VB.net, scrapes the web page, rather than hitting the
+  endpoint directly.
+notes: ''
+hp: ''
+date: 1607220182
