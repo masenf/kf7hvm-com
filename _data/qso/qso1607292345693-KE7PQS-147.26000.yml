@@ -1,0 +1,13 @@
+_id: 307745c0-380f-11eb-8f08-916937386f5d
+m_call: KF7HVM
+m_loc: 'Longview, Pacific Way'
+start: '1607292000'
+frequency: '147.26000'
+machine: '53,408'
+mode: FM
+t_call: KE7PQS
+t_loc: ''
+comment: Testing a recently fixed yaesu 857.
+notes: Came back in response to my turkey announcement
+hp: ''
+date: 1607292345
