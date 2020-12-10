@@ -1,0 +1,15 @@
+_id: 68bdae70-3a9d-11eb-b4be-bf1c2548f1f7
+m_call: KF7HVM
+m_loc: Poplar
+start: '1607569200'
+frequency: '441.70000'
+machine: '41,505'
+mode: FM
+t_call: W7NCX
+t_loc: N.C.S.
+comment: >-
+  WA 2. The gathering DMR net. Best way to get callwatch data with web endpoint.
+  Reach out to w7ncx@pnwdigital.net for more questions.
+notes: ''
+hp: ''
+date: 1607573330
