@@ -1,0 +1,15 @@
+_id: 9e6bf290-3d98-11eb-8b9f-9b768530a946
+m_call: KF7HVM
+m_loc: Willow Grove
+start: '1607891400'
+frequency: '146.66000'
+machine: '41,176'
+mode: FM
+t_call: KA7SGB
+t_loc: ''
+comment: >-
+  Testing with 5W GD77: "good, bit of white noise". Testing with 50W Mobile:
+  "noise gone" =].
+notes: ''
+hp: ''
+date: 1607901127
