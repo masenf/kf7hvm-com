@@ -4,7 +4,7 @@ m_loc: US26 WB (Rhododendron)
 start: '1608247800'
 frequency: '444.15000'
 machine: '41,15504'
-mode: FM
+mode: DMR
 t_call: N7QME
 t_loc: ''
 comment: OR 1. Jim.
