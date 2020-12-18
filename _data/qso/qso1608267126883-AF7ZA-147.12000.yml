@@ -1,0 +1,17 @@
+_id: c75afaa0-40ec-11eb-94cb-778b5ec9328d
+m_call: KF7HVM
+m_loc: US26 EB (Laurel Hill)
+start: '1608234600'
+frequency: '147.12000'
+machine: '41,28'
+mode: FM
+t_call: AF7ZA
+t_loc: 'Columbia County, OR'
+comment: >-
+  Trying out the K7RPT Timberline repeater. On the B-band of the Kenwood
+  TM-V71A, I was unable to transmit on the offset frequency... however Bill
+  heard me on Simplex! Switching over the A-band I was able to get into the
+  repeater without issue.
+notes: ''
+hp: ''
+date: 1608267126
