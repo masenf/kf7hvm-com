@@ -1,0 +1,15 @@
+_id: 49413ee0-41b9-11eb-a08e-b97b32a97671
+m_call: KF7HVM
+m_loc: Poplar
+start: '1608353700'
+frequency: '441.70000'
+machine: '41,505'
+mode: DMR
+t_call: K7VKT
+t_loc: 'Hillsboro, OR'
+comment: >-
+  OR 1. Antenna testing. Roaming: anytone implementation keys up repeaters and
+  DoS the network. W7NCX joined the group.
+notes: ''
+hp: ''
+date: 1608354962
