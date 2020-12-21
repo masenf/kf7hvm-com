@@ -1,0 +1,17 @@
+_id: 77ddc1e0-43dc-11eb-bf20-29002e06a699
+m_call: KF7HVM
+m_loc: Poplar
+start: '1608589740'
+frequency: '-'
+machine: ''
+mode: FM
+t_call: N7DUD
+t_loc: ''
+comment: >-
+  BM 3102 is the PNWDigital bridge to brandmeister network. All BM connections
+  come from this server. The station came back with a transmission from the
+  droid-star app and it sounded about the same through my phone. The phone audio
+  RX is tinny over over represents the semblance in the vocal
+notes: ''
+hp: ''
+date: 1608589975
