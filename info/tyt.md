@@ -1,6 +1,7 @@
 ---
 layout: page
 title: TYT (Tytera) Radio Info
+permalink: /info/tyt/
 ---
 
 [TYT (Tytera)](https://www.tyt888.com/) is a chinese manufacturer of commercial
