@@ -4,10 +4,10 @@ m_loc: Poplar
 start: '1609210800'
 frequency: '441.70000'
 machine: '41,505'
-mode: FM
+mode: DMR
 t_call: WA7HAA
 t_loc: N.C.S.
-comment: Oregon Regional DMR Net ✅
+comment: OR 1. Oregon Regional DMR Net ✅
 notes: ''
 hp: ''
 date: 1609355295
