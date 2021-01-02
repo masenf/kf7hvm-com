@@ -37,8 +37,8 @@ particularly on the Brandmeister and PNWDigital DMR networks:
     * Limits:
       * 3000 Channels
       * 10,000 Contacts (or 120K with ContactListCSV firmware)
-      * 250 Scan lists (of 32 channels each)
-      * 250 Zones (of 16 channels each)
+      * 250 Scan lists (of 64 channels each)
+      * 250 Zones (of 64 channels each)
   * **TYT MD-UV390**
     * Same as above, but with built in GPS
 
