@@ -192,7 +192,7 @@ Zones are generally a collection of Digital Channels for a single repeater
 or Analog Channels for a particular area (city, county, etc).
 
 Each zone has a name of 16 or fewer characters and both an "A" band (top row)
-and a "B" band (bottom row) of 16 channels each. A zone may contain mixed
+and a "B" band (bottom row) of 16 (64 for UV) channels each. A zone may contain mixed
 analog and digital channels.
 
 The zone list may be reordered with `editcp` or N0GSG. The stock CPS does not
