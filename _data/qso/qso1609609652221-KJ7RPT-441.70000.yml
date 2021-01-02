@@ -1,0 +1,15 @@
+_id: 96d52530-4d22-11eb-9cfa-e725d64d661e
+m_call: KF7HVM
+m_loc: Longview
+start: '1609609549'
+frequency: '441.70000'
+machine: '41,505'
+mode: DMR
+t_call: KJ7RPT
+t_loc: Utah
+comment: >-
+  OR 1. Testing crossband from fusion to DMR, need 5 digital group number.
+  RFinder HCP.
+notes: ''
+hp: ''
+date: 1609609652
