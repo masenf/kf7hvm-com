@@ -10,7 +10,7 @@ and versatility.
 
 ## Presented 2021-01-01
 
-**[Video](https://youtu.be/zltBU3Fucgw)** [[slides](/assets/Programming_TYT_Handhelds.pptx)]
+**[Video](https://youtu.be/m27BUJf5cBw)** [[slides](/assets/Programming_TYT_Handhelds.pptx)]
 
 # Info and Stock Software
 
