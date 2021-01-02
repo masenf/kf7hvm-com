@@ -8,6 +8,8 @@ permalink: /info/tyt/
 and amateur radios. These radios are popular due to their relatively low cost
 and versatility.
 
+**[Video](https://youtu.be/zltBU3Fucgw)** [slides](/assets/Programming_TYT_Handhelds.pptx)
+
 # Info and Stock Software
 
 This page will focus on using the following models for Ham radio applications,
