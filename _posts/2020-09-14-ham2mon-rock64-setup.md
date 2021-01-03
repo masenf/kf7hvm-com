@@ -3,14 +3,14 @@ layout: post
 title: ham2mon rock64 setup
 ---
 
-After deploying [ham2mon with ham2mon-gui on my Mac Book Pro](/_posts/2020-09-11-ham2mon-multi-channel-scanner.md),
+After deploying [ham2mon with ham2mon-gui on my Mac Book Pro](/2020/09/11/ham2mon-multi-channel-scanner),
 I was interested to see how the software would perform on dedicated, but more limited hardware: the
 [Pine64 Rock64](https://www.pine64.org/devices/single-board-computers/rock64/)
 single board computer.
 
 # [Demo](http://sdrock.0x26.net:8080/)
 
-## Replaced 2021-01-03: [running on DigitalOcean now](/_posts/2021-01-03-ham2mon-scanner-progress.md)
+## Replaced 2021-01-03: [running on DigitalOcean now](/2021/01/03/ham2mon-scanner-progress)
 
 * ~[http://sdrock.0x26.net:8080/](http://sdrock.0x26.net:8080/) [Up as of 2020-09-14]~
 * Audio quality may vary between recordings the settings were tweaked
