@@ -5,7 +5,7 @@ title: Projects
 
 # ham2mon - SDR multisignal scanner
 
-* [**ham2mon-gui demo**](http://sdrock.0x26.net:8080) (up as of 2020-11-21)
+* [**ham2mon-gui demo**](https://scanner.kf7hvm.com) (up as of 2021-01-03)
 * [ham2mon on macOS (overview)](/_posts/2020-09-11-ham2mon-multi-channel-scanner.md)
 * [ham2mon on rock64](/_posts/2020-09-14-ham2mon-rock64-setup.md)
 
