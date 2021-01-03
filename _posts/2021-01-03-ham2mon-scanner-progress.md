@@ -5,7 +5,7 @@ title: ham2mon scanner progress
 
 ### Scanner is [back online](https://scanner.kf7hvm.com) at a new URL: [scanner.kf7hvm.com](https://scanner.kf7hvm.com)
 
-In the [last post](/_posts/2020-12-30-ham2mon-scanner-down-for-a-few-weeks.md) on this topic, the
+In the [last post](/2020/12/30/ham2mon-scanner-down-for-a-few-weeks) on this topic, the
 ham2mon scanner was not syncing the latest calls, so I've done some work to make call
 syncing and hosting more robust. The new scanner retains the call history of the previous and
 the last 3 days of calls were preserved!
