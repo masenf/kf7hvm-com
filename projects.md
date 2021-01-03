@@ -8,6 +8,7 @@ title: Projects
 * [**ham2mon-gui demo**](https://scanner.kf7hvm.com) (up as of 2021-01-03)
 * [ham2mon on macOS (overview)](/_posts/2020-09-11-ham2mon-multi-channel-scanner.md)
 * [ham2mon on rock64](/_posts/2020-09-14-ham2mon-rock64-setup.md)
+* [ham2mon scanner progress](/_posts/2021-01-03-ham2mon-scanner-progress.md)
 
 # [myCodeplug.com](http://mycodeplug.com)
 
