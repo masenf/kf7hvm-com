@@ -6,7 +6,7 @@ frequency: '430.3875'
 machine: ''
 mode: DMR
 t_call: VE7RU
-t_loc: ''
+t_loc: 'Victoria, BC'
 comment: 'Oly Pen. 31531. Testing. Hot mic, turned down.'
 notes: ''
 hp: ''
