@@ -7,7 +7,7 @@ machine: '53,408'
 mode: FM
 t_call: KI7MPV
 t_loc: ''
-comment: 'Wires radio ID, double check for case sensitivity.'
+comment: 'Wires radio ID, double check for case sensitivity. In the group with KB7PMO.'
 notes: ''
 hp: ''
 date: 1609909103
