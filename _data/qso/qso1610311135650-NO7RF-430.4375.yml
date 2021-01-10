@@ -1,0 +1,15 @@
+_id: db84b260-5383-11eb-918a-4be50cf21777
+m_call: KF7HVM
+m_loc: Poplar
+start: '1610310600'
+frequency: '430.4375'
+machine: ''
+mode: DMR
+t_call: NO7RF
+t_loc: 'Mazama, WA'
+comment: >-
+  PNW Regional 31771. Discussing network resilience, brandmeister connection,
+  and points of failure.
+notes: ''
+hp: ''
+date: 1610311135
