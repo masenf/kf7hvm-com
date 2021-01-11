@@ -5,7 +5,8 @@ title: Kalama Simplex Test
 
 Last Saturday, I participated in a simplex testing exercise in 
 [Kalama, WA](https://aprs.fi/#!mt=roadmap&z=9&ts=1610150400&te=1610236800&call=a%2FKF7HVM-5)
-to determine communication capability in the absence of grid comms.
+to determine communication capability in the absence of grid comms. The activity
+was sponsored by [W7MSH - Mercury Mount St. Helens](http://www.w7msh.org).
 
 Eight tactical teams and net control spread out to a number of predefined locations
 in the area and checked in via 50w mobile 2m VHF to establish role. As
