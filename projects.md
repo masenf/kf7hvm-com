@@ -3,9 +3,12 @@ layout: page
 title: Projects
 ---
 
-# ham2mon - SDR multisignal scanner
+# [`ham2mon`](https://github.com/madengr/ham2mon) - SDR multisignal scanner
 
 ## [**ham2mon-gui demo**](https://scanner.kf7hvm.com) (up as of 2021-01-03)
+
+[`ham2mon-gui`](https://github.com/slavik0329/ham2mon-gui) originally by slavik0329
+with some [modifications](https://github.com/masenf/ham2mon-gui)
 
 ## blog posts
 
@@ -13,7 +16,7 @@ title: Projects
 * [ham2mon on rock64](/_posts/2020-09-14-ham2mon-rock64-setup.md)
 * [ham2mon scanner progress](/_posts/2021-01-03-ham2mon-scanner-progress.md)
 
-# [`dzcb`](https://github.com/mycodeplug/dzcb/)
+# [`dzcb`](https://github.com/mycodeplug/dzcb/) - DMR Zone Channel Builder
 
 Alpha DMR codeplug generator for Farnsworth [EditCp](https://www.farnsworth.org/dale/codeplug/editcp/)
 (TYT MD-UV380) and [GB3GF CSV](http://www.gb3gf.co.uk/downloads.html) (OpenGD77).
@@ -32,6 +35,8 @@ adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/
   * A list of repeater book locations for analog
   * Custom zone ordering
   * Additional scanlists
+  
+[<img src="images/kf7hvm-codeplug-screenshot.png" alt="downloading the generated codeplug">](https://github.com/masenf/kf7hvm-codeplug/releases)
   
 Anyone can fork [`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb/),
 enable github actions, and build their own customized codeplugs in the cloud.
