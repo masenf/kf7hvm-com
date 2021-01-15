@@ -22,8 +22,9 @@ The codeplug generator downloads data from [PNWDigital.net](http://www.pnwdigita
 [SeattleDMR](http://seattledmr.org), and [Repeaterbook](http://www.repeaterbook.com)
 to combine into a WA/OR regional codeplug.
 
-The main repo (`mycodeplug/dzcb`) builds codeplugs with default settings
-for the MD-UV380, MD-UV390, MD380, MD390, and OpenGD77.
+The main repo ([`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb))
+builds codeplugs with default settings for the MD-UV380, MD-UV390,
+MD380, MD390, and OpenGD77.
 
 My fork of the repo ([`masenf/kf7hvm-codeplug`](https://github.com/masenf/kf7hvm-codeplug/releases))
 adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/tree/codeplug/kf7hvm):
@@ -32,8 +33,10 @@ adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/
   * Custom zone ordering
   * Additional scanlists
   
-Anyone can fork `mycodeplug/dzcb`, enable github actions, and build their own
-customized codeplugs in the cloud.
+Anyone can fork [`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb/),
+enable github actions, and build their own customized codeplugs in the cloud.
+
+See project [README.md](https://github.com/mycodeplug/dzcb/#dzcb) for more information.
 
 # Miscellaneous Project Posts
 
