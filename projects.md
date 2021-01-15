@@ -30,7 +30,7 @@ builds codeplugs with default settings for the MD-UV380, MD-UV390,
 MD380, MD390, and OpenGD77.
 
 My fork of the repo ([`masenf/kf7hvm-codeplug`](https://github.com/masenf/kf7hvm-codeplug/releases))
-adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/tree/codeplug/kf7hvm):
+adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/tree/main/codeplug/kf7hvm):
   * My DMR ID and call are included in the template
   * A list of repeater book locations for analog
   * Custom zone ordering
