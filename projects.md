@@ -36,7 +36,7 @@ adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/
   * Custom zone ordering
   * Additional scanlists
   
-[<img src="../images/kf7hvm-codeplug-screenshot.png" alt="downloading the generated codeplug">](https://github.com/masenf/kf7hvm-codeplug/releases)
+[<img src="/images/kf7hvm-codeplug-screenshot.png" alt="downloading the generated codeplug">](https://github.com/masenf/kf7hvm-codeplug/releases)
   
 Anyone can fork [`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb/),
 enable github actions, and build their own customized codeplugs in the cloud.
