@@ -18,7 +18,7 @@ with some [modifications](https://github.com/masenf/ham2mon-gui)
 
 # [`dzcb`](https://github.com/mycodeplug/dzcb/) - DMR Zone Channel Builder
 
-Alpha DMR codeplug generator for Farnsworth [EditCp](https://www.farnsworth.org/dale/codeplug/editcp/)
+Beta DMR codeplug generator for Farnsworth [EditCp](https://www.farnsworth.org/dale/codeplug/editcp/)
 (TYT MD-UV380) and [GB3GF CSV](http://www.gb3gf.co.uk/downloads.html) (OpenGD77).
 
 The codeplug generator downloads data from [PNWDigital.net](http://www.pnwdigital.net),
@@ -42,6 +42,8 @@ Anyone can fork [`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb/),
 enable github actions, and build their own customized codeplugs in the cloud.
 
 See project [README.md](https://github.com/mycodeplug/dzcb/#dzcb) for more information.
+
+See [release announcement post](/_posts/2021-01-20-dzcb-dmr-zone-channel-builder.md).
 
 # Miscellaneous Project Posts
 
