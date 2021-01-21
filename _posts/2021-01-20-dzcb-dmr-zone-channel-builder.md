@@ -1,6 +1,6 @@
 ---
 layout: post
-title: dzcb: DMR Zone Channel Builder
+title: dzcb - DMR Zone Channel Builder
 ---
 
 After 3 months of sporadic development, I'm pleased to announce the public release of my
