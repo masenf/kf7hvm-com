@@ -1,0 +1,16 @@
+_id: 5fd3cd90-5e46-11eb-8972-e743b29bf171
+m_call: KF7HVM
+m_loc: Poplar
+start: '1611462600'
+frequency: '430.4375'
+machine: ''
+mode: DMR
+t_call: K7VKT
+t_loc: 'Hillsboro, OR'
+comment: >-
+  OR 1. write codeplug to radio from a webapp (webusb?). speech-to-text for
+  scanner/answering machine project. D-APRS. ansible config management. his
+  shack is coming along, insulation done, trench dug with power and coax.
+notes: ''
+hp: ''
+date: 1611494191
