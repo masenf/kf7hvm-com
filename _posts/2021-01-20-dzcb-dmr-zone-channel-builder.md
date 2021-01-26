@@ -20,4 +20,4 @@ Radioddity OpenGD77.
 
 For more information see:
   * [dzcb README](https://github.com/mycodeplug/dzcb/blob/main/README.md)
-  * [kf7hvm codeplug](https://github.com/masenf/kf7hvm-codeplug/tree/main/codeplug/kf7hvm)
+  * [kf7hvm codeplug](https://github.com/masenf/kf7hvm-codeplug/tree/main/input/kf7hvm)
