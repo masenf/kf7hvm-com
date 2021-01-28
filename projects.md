@@ -18,19 +18,21 @@ with some [modifications](https://github.com/masenf/ham2mon-gui)
 
 # [`dzcb`](https://github.com/mycodeplug/dzcb/) - DMR Zone Channel Builder
 
-Beta DMR codeplug generator for Farnsworth [EditCp](https://www.farnsworth.org/dale/codeplug/editcp/)
-(TYT MD-UV380) and [GB3GF CSV](http://www.gb3gf.co.uk/downloads.html) (OpenGD77).
+Beta DMR codeplug generator for Anytone CPS 578/868/878, Farnsworth
+[EditCp](https://www.farnsworth.org/dale/codeplug/editcp/) (TYT MD-UV380)
+and [GB3GF CSV](http://www.gb3gf.co.uk/downloads.html) (OpenGD77).
 
 The codeplug generator downloads data from [PNWDigital.net](http://www.pnwdigital.net),
 [SeattleDMR](http://seattledmr.org), and [Repeaterbook](http://www.repeaterbook.com)
 to combine into a WA/OR regional codeplug.
 
 The main repo ([`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb))
-builds codeplugs with default settings for the MD-UV380, MD-UV390,
-MD380, MD390, and OpenGD77.
+contains the python source and builds codeplugs with default settings
+for the MD-UV380, MD-UV390, MD380, MD390, 578, 868, 878, and OpenGD77.
 
-My fork of the repo ([`masenf/kf7hvm-codeplug`](https://github.com/masenf/kf7hvm-codeplug/releases))
-adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/tree/main/codeplug/kf7hvm):
+The [`mycodeplug/example-codeplug`](https://github.com/mycodeplug/example-codeplug/releases)
+repo leverages the `dzcb` tool and adds
+[some additional customizations](https://github.com/mycodeplug/example-codeplug/releases/tree/main/input/default):
   * My DMR ID and call are included in the template
   * A list of repeater book locations for analog
   * Custom zone ordering
@@ -38,12 +40,18 @@ adds [some additional customizations](https://github.com/masenf/kf7hvm-codeplug/
   
 [<img src="/images/kf7hvm-codeplug-screenshot.png" alt="downloading the generated codeplug">](https://github.com/masenf/kf7hvm-codeplug/releases)
   
-Anyone can fork [`mycodeplug/dzcb`](https://github.com/mycodeplug/dzcb/),
+Anyone can fork [`mycodeplug/example-codeplug`](https://github.com/mycodeplug/example-codeplug/),
 enable github actions, and build their own customized codeplugs in the cloud.
+See [walkthrough](https://github.com/mycodeplug/dzcb/blob/main/doc/WALKTHROUGH.md) for a step
+by step guide.
 
-See project [README.md](https://github.com/mycodeplug/dzcb/#dzcb) for more information.
+See project [README.md](https://github.com/mycodeplug/dzcb/#dzcb) for supported
+input/output formats and more usage information.
 
-See [release announcement post](/_posts/2021-01-20-dzcb-dmr-zone-channel-builder.md).
+## related posts
+
+* [overview/demo](/_posts/2021-01-27-dzcb-demo.md)
+* [release announcement](/_posts/2021-01-20-dzcb-dmr-zone-channel-builder.md)
 
 # Miscellaneous Project Posts
 
