@@ -9,6 +9,15 @@ title: Resources
 
 ### [Programming TYT Handhelds](/info/tyt/) (w/ video)
 
+### Software
+
+Alternate programming software that I've found:
+
+* [OpenRTX/dmrconfig](https://github.com/OpenRTX/dmrconfig): CLI programming for many radios
+  * GUI: [hmatuschek/qdmr](https://github.com/hmatuschek/qdmr)
+* [dmrRadio](https://github.com/DaleFarnsworth-DMR/dmrRadio): CLI programming for TYT, etc
+  * GUI: [Editcp](https://github.com/DaleFarnsworth-DMR/editcp)
+
 ### External Resources
 
 * [Intro to DMR (Miklor)](https://www.miklor.com/DMR/ppt/DMR-BasicTutorial.pdf) (PDF)
