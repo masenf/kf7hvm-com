@@ -1,0 +1,15 @@
+_id: 037b6ce0-842c-11eb-ae25-df2d9243f98e
+m_call: KF7HVM
+m_loc: Poplar
+start: '1615660200'
+frequency: '443.4375'
+machine: ''
+mode: DMR
+t_call: K9KLC
+t_loc: 'Highland, IL'
+comment: >-
+  TAC 312 came back while I was testing. His group in IL uses DMR simplex quite
+  a bit and hangs out on 312
+notes: ''
+hp: ''
+date: 1615661013
