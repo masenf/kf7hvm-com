@@ -33,9 +33,8 @@ for the MD-UV380, MD-UV390, MD380, MD390, 578, 868, 878, and OpenGD77.
 The [`mycodeplug/example-codeplug`](https://github.com/mycodeplug/example-codeplug/releases)
 repo leverages the `dzcb` tool and adds
 [some additional customizations](https://github.com/mycodeplug/example-codeplug/releases/tree/main/input/default):
-  * My DMR ID and call are included in the template
   * A list of repeater book locations for analog
-  * Custom zone ordering
+  * Custom zone and contact ordering
   * Additional scanlists
   
 [<img src="/images/kf7hvm-codeplug-screenshot.png" alt="downloading the generated codeplug">](https://github.com/masenf/kf7hvm-codeplug/releases)
@@ -50,6 +49,8 @@ input/output formats and more usage information.
 
 ## related posts
 
+* [dzcb 0.3 sprint](/_posts/2021-03-14-dzcb-0-3-sprint.md)
+* [Banned from Repeaterbook](/_posts/2021-02-07-banned-from-repeaterbook.md)
 * [overview/demo](/_posts/2021-01-27-dzcb-demo.md)
 * [release announcement](/_posts/2021-01-20-dzcb-dmr-zone-channel-builder.md)
 
