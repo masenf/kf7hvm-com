@@ -5,7 +5,7 @@ start: '1616730720'
 frequency: '441.70000'
 machine: '41,505'
 mode: DMR
-t_call: KA7TP
+t_call: KA0TP
 t_loc: 'Longview, WA'
 comment: OR 1. Testing new anytone 878 with bluetooth
 notes: ''
