@@ -3,6 +3,22 @@ layout: page
 title: Projects
 ---
 
+# [repeater map](/repeaters)
+
+Just what it sounds like, [plotting repeaters on a map](/repeaters)...
+But not just any repeaters, these are the ones that myself or other local hams
+personally use and can vouch for. Where possible, I've tried to provide useful
+comments and reports as well as net schedules, but it's sure to get out of date.
+
+I also want to visualize, refine, and understand the amateur supported
+communications backbone in the Pacific Northwest and none of the existing
+tools allow me the flexibility to combine arbitrary numbers of frequencies
+and information across networks and state lines.
+
+But mostly this is a practice project to get familiar with map libraries and
+working with repeater data in preparation for a few APRS related projects
+coming up.
+
 # [`ham2mon`](https://github.com/madengr/ham2mon) - SDR multisignal scanner
 
 ## [**ham2mon-gui demo**](https://scanner.kf7hvm.com) (up as of 2021-01-03)
@@ -66,6 +82,9 @@ input/output formats and more usage information.
 * HF multiband wire dipole
 * Roll up J Pole (portable antenna)
 * Cell phone autopatch
+* APRS repeater info bot
+* APRS multi user web client
+* Kenwood TM-V71 / Raspberry Pi TNC / Packet setup
 
 ## [myCodeplug.com](http://mycodeplug.com)
 
