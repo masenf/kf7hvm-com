@@ -42,7 +42,8 @@ window.onload = (event) => {
     zoomOffset: -1,
     accessToken: 'pk.eyJ1Ijoia2Y3aHZtIiwiYSI6ImNrdTNtNDRoODJzcWsybnFtczJxYXpucWkifQ.BAUSn09PYXmpDwkyIUyuoQ'
   }).addTo(mymap);
-  mymap.on('click', onMapClick);
+  // for debugging
+  //mymap.on('click', onMapClick);
   console.log('fetching repeater data');
   fetch(repeaters_json)
     .then(response => response.json())
