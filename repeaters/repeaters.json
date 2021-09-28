@@ -8,7 +8,7 @@
         "Frequency": "147.26000",
         "State ID": "53",
         "Rptr ID": "408",
-        "Comment": "Main Longview Repeater. Coverage North to Winlock, South on I-5 to Kalama, East to Toutle, and West to Cathalamet."
+        "Comment": "Main Longview Repeater. Coverage North to Winlock, South on I-5 to Kalama, East to Toutle, and West to Cathalamet.<br><b>Nets:</b><br>W7MSH ERC Roundtable Sun 20:15.<br>Cowlitz County ACS Mon 20:00."
     },
     {
         "Frequency": "147.10000",
@@ -149,16 +149,6 @@
         "Frequency": "145.41000",
         "State ID": "53",
         "Rptr ID": "18070"
-    },
-    {
-        "Frequency": "147.2600",
-        "State ID": "53",
-        "Rptr ID": "408"
-    },
-    {
-        "Frequency": "444.9000",
-        "State ID": "53",
-        "Rptr ID": "7118"
     },
     {
         "Frequency": "145.13",
