@@ -1,0 +1,193 @@
+[
+    {
+        "Frequency": "442.12500",
+        "State ID": "53",
+        "Rptr ID": "175"
+    },
+    {
+        "Frequency": "147.26000",
+        "State ID": "53",
+        "Rptr ID": "408",
+        "Comment": "Main Longview Repeater. Coverage North to Winlock, South on I-5 to Kalama, East to Toutle, and West to Cathalamet."
+    },
+    {
+        "Frequency": "147.10000",
+        "State ID": "53",
+        "Rptr ID": "19794",
+        "Comment": "Secondary Longview Repeater"
+    },
+    {
+        "Frequency": "440.37500",
+        "State ID": "53",
+        "Rptr ID": "172"
+    },
+    {
+        "Frequency": "442.82500",
+        "State ID": "53",
+        "Rptr ID": "557",
+        "Comment": "Linked to Evergreen Intertie (Tiger/Couger)"
+    },
+    {
+        "Frequency": "146.88000",
+        "State ID": "41",
+        "Rptr ID": "142",
+        "Comment": "Every Tuesday night at 7:00pm except the first Tuesday of the month which is our club monthly meeting."
+    },
+    {
+        "Frequency": "146.76000",
+        "State ID": "41",
+        "Rptr ID": "178",
+        "Comment": "Nicolai Mountain. Solar power. Linked to Beachnet"
+    },
+    {
+        "Frequency": "147.06000",
+        "State ID": "53",
+        "Rptr ID": "30",
+        "Comment": "BawFaw Repeater.<br>Lewis County ARES Sun 18:45"
+    },
+    {
+        "Frequency": "146.66000",
+        "State ID": "41",
+        "Rptr ID": "176",
+        "Comment": "Wickiup Mountain. Not linked to beachnet 2021/09"
+    },
+    {
+        "Frequency": "146.72000",
+        "State ID": "41",
+        "Rptr ID": "11325",
+        "Comment": "Wickiup Mountain. Linked to K7RPT 147.04 / 147.32 for some nets"
+    },
+    {
+        "Frequency": "145.27000",
+        "State ID": "41",
+        "Rptr ID": "114",
+        "Comment": "Wide area: Kalama, WA to Eugene to Long Beach to Neskowin along the coast<br>National Traffic/Training: Daily at 18:05.<br>WORC Info: Wed at 19:00.<br>Evergreen Intertie Technical: Wed at 20:00."
+    },
+    {
+        "Frequency": "147.24000",
+        "State ID": "53",
+        "Rptr ID": "5",
+        "Comment": "ARES: Tue at 19:00.<br>Packet: Tue at 20:00.<br>2 Rivel YL: Wed at 20:30."
+    },
+    {
+        "Frequency": "146.84000",
+        "State ID": "53",
+        "Rptr ID": "4",
+        "Comment": "Larch Mountain.<br>HandiHAMs: Sun at 19:00. HAMs with disabilities.<br>PARC Net: Monday at 1900.<br>Multnomah County ARES NET: Wednesday at 1900."
+    },
+    {
+        "Frequency": "145.31000",
+        "State ID": "41",
+        "Rptr ID": "660",
+        "Comment": "Portland Skyline. Wide coverage: Eugene to Longview to Hood River.<br>60 mi radius.<br><br>Can reach this one from Longview on 5w base antenna"
+    },
+    {
+        "Frequency": "146.98000",
+        "State ID": "41",
+        "Rptr ID": "62",
+        "Comment": "Linked to Peak Repeater Association"
+    },
+    {
+        "Frequency": "147.04000",
+        "State ID": "41",
+        "Rptr ID": "63",
+        "Comment": "This repeater serves primarily downtown Portland, eastside Metro area as well as both North & Vancouver with handheld quality. Mobile coverage on I-5 is from Longview to Salem and on I-84 from downtown Portland to Cascade Locks.<br><br>ARES District One Net 7:30 - 8:05 PM   Daily<br>Linux User Net  8:10 - 9:00 PM             Monday<br>Skywarn Net      8:05 PM                      Wednesday<br>Portland NET       8:05 PM                    Sunday"
+    },
+    {
+        "Frequency": "440.40000",
+        "State ID": "41",
+        "Rptr ID": "73"
+    },
+    {
+        "Frequency": "145.23000",
+        "State ID": "41",
+        "Rptr ID": "52"
+    },
+    {
+        "Frequency": "147.28000",
+        "State ID": "41",
+        "Rptr ID": "29"
+    },
+    {
+        "Frequency": "444.87500",
+        "State ID": "53",
+        "Rptr ID": "173"
+    },
+    {
+        "Frequency": "147.10000",
+        "State ID": "41",
+        "Rptr ID": "233"
+    },
+    {
+        "Frequency": "146.74000",
+        "State ID": "53",
+        "Rptr ID": "5905"
+    },
+    {
+        "Frequency": "146.78000",
+        "State ID": "53",
+        "Rptr ID": "11180"
+    },
+    {
+        "Frequency": "147.14000",
+        "State ID": "53",
+        "Rptr ID": "145"
+    },
+    {
+        "Frequency": "146.96000",
+        "State ID": "41",
+        "Rptr ID": "27",
+        "Comment": "Wide area: Eugene to north of Longview, West to Astoria.<br>Despite the coverage circle showing coverage out the gorge towards The Dalles, the eastbound I-84 coverage really ends at about Troutdale (exit 17). Coverage does not penetrate east of the Cascade range mountains."
+    },
+    {
+        "Frequency": "145.29000",
+        "State ID": "41",
+        "Rptr ID": "365",
+        "Comment": "Coverage: Wide area: Mid-Willamette Valley from Woodland to Cottage Grove.<br>EchoLink: 592473<br><br><b>Nets:</b><br>Technical & Training: Weekdays at 10:00.<br>Lunch Bunch: Daily at 12:00.<br>Digital and SSTV: Wed at 20:30.<br>LDS Emergency Training: Sun at 18:00.<br>AR Newsline: Sat at 18:00.<br>Ham Shopping Club Swap: Sat at 19:00. Computers: 17:00 daily<br><br>If I'm going south of Portland I'm usually on there between 10 to 1 in the afternoon"
+    },
+    {
+        "Frequency": "145.41000",
+        "State ID": "53",
+        "Rptr ID": "18070"
+    },
+    {
+        "Frequency": "147.2600",
+        "State ID": "53",
+        "Rptr ID": "408"
+    },
+    {
+        "Frequency": "444.9000",
+        "State ID": "53",
+        "Rptr ID": "7118"
+    },
+    {
+        "Frequency": "145.13",
+        "State ID": "41",
+        "Rptr ID": "352",
+        "Comment": "Coverage: Roseburg to Portland in valley; Reedsport to Lincoln City on the coast. Part of linksys Linking System: Peak Radio Association."
+    },
+    {
+        "Frequency": "147.32",
+        "State ID": "41",
+        "Rptr ID": "118",
+        "Comment": "ECHOLINK: K7RPT-R<br>Wide area: Serves a major portion of N/W Oregon and S/W Washington. I-5 coverage extends from just south of Chehalis to Cottage Grove. Eastern covers is to Cascade Locks"
+    },
+    {
+        "Frequency": "147.12",
+        "State ID": "41",
+        "Rptr ID": "28",
+        "Comment": "Wide area: Bend to Portland, Salem, McMinnville and the Tualatin Valley<br>Links: Full-time to 442.22500 (K7RPT) at Portland, Sylvan KOIN Tower, OR.<br>Full-time to the Timberline System.<br>EchoLink:    329379 AC7QE-R<br>Notes:    CARES Primary repeater.<br>7,000 feet ASL, 250 watts ERP."
+    },
+    {
+        "Frequency": "146.68",
+        "State ID": "41",
+        "Rptr ID": "16116",
+        "Comment": "Coverage: Wheeler and Gilliam Counties<br>It covers more counties in that a lot of the essential Northeast central oregon<br>Our nets are held every Thursday (except the 2nd Thursday of the month) on the club repeater."
+    },
+    {
+        "Frequency": "146.8",
+        "State ID": "41",
+        "Rptr ID": "397",
+        "Comment": "Echolink Node 835368<br>Business Net: 1st and 3rd Sunday of each month at 19:30.<br>Cracker Barrel Rag Chew Net: Weeknights at 20:00.<br><br>Wide area: Spokane to the North, Hood River to the West, Baker City to the Southwest, Joseph and Enterprise to the SE and high Idaho points to the East. Excellent coverage along I-84 except for down in the gorge in Morrow and Wasco counties (coverage ends WB I-84 at ~mp 147 and EB I-84 at mp 314). Coverage for Columbia Basin and Franklin County. No coverage from La Grande mp 261 through hills to the west.<br><br>This is one of my favorite repeaters I'm in the Pendleton area"
+    }
+]
