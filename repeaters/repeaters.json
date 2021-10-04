@@ -179,5 +179,11 @@
         "State ID": "41",
         "Rptr ID": "397",
         "Comment": "Echolink Node 835368<br>Business Net: 1st and 3rd Sunday of each month at 19:30.<br>Cracker Barrel Rag Chew Net: Weeknights at 20:00.<br><br>Wide area: Spokane to the North, Hood River to the West, Baker City to the Southwest, Joseph and Enterprise to the SE and high Idaho points to the East. Excellent coverage along I-84 except for down in the gorge in Morrow and Wasco counties (coverage ends WB I-84 at ~mp 147 and EB I-84 at mp 314). Coverage for Columbia Basin and Franklin County. No coverage from La Grande mp 261 through hills to the west.<br><br>This is one of my favorite repeaters I'm in the Pendleton area"
-    }
+    },
+    {
+        "Frequency": "145.47000",
+        "State ID": "53",
+        "Rptr ID": "358",
+        "Comment": "<a href='http://47repeater.com/about-the-repeater/' title='repeater hardware, antenna, coverage info'>Capitol Peak, 2700ft</a><br>Coverage: Washington coast from Moclips to the Columbia River; I-5 south to Longview; north to Seattle and west to the Cascades.<br><br>Net Sun 20:00"
+    },
 ]
