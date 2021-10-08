@@ -52,6 +52,9 @@ export default function QsoForm (props) {
                 <select className="qso-form-mode" name="fields[mode]">
                     <option value="FM">FM</option>
                     <option value="DMR">DMR</option>
+                    <option value="SSB">SSB</option>
+                    <option value="SSTV">SSTV</option>
+                    <option value="Digital">Digital</option>
                 </select>
             </label>
             <div className="textfield narrowfield">
