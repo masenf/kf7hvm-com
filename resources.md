@@ -3,7 +3,17 @@ layout: page
 title: Resources
 ---
 
+# HF
+
+* [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
+* [HF Bands](http://www.hamuniverse.com/hfbands.html) - overview of different band characteristics
+  * [ARRL Band Plan](http://www.arrl.org/band-plan) - where to find certain types of signals
+
 # Digital Radio
+
+* [JS8Call](http://js8call.com/) - a messaging system build on JS8 (FT8)
+* [ARDOP](https://www.winlink.org/content/ardop_overview) - next gen connected mode data protocols (HF/VHF/UHF)
+* [SSTV Primer](https://hamsoft.ca/pages/mmsstv/sstv-primer.php) (2001)
 
 ## DMR
 
