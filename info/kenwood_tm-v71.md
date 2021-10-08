@@ -93,6 +93,10 @@ I don't think that's an accident.
 | 2   | DE    | Audio Ground           | Red         |
 | 3   | PKS   | "L" for PTT / mic mute | Orange      |
 | 4   | PR9   | 9600 Output (discrim.) | Yellow      |
+| -   | ---   | Non-standard pins      | -           |
+| 5   | PR1   | 1200 Output (squelch)  | Green       |
+| 6   | SQC   | COS - "H" for open     | Black       |
+| 8   | E     | Common Ground          | Bare        |
 
 I'll also bring PR1 and SQC out to the RJ-45 as well, non-standard
 pin location. The common ground will also be broken out into RJ-45
@@ -104,12 +108,14 @@ with no fiddly soldering.
 
 | No. | Name  | Function               | Wire Color  |
 | --- | ----- | ---------------------- | ----------- |
-| 1   | PKD   | Audio Output (Green)   | White/Black |
-| 2   | DE    | Audio Ground           | Blue        |
-| 3   | PKS   | "L" for PTT / mic mute | Yellow      |
-| 4   | PR9   | 9600 Output (discrim.) | Green       |
-| 6   | SQC   | COS - "H" for open     | Green (header) |
-| 8   | E     | Common Ground          | Blue        |
+| 1   | PKD   | Audio Output (Green)   | Red         |
+| 2   | DE    | Audio Ground           | Green       |
+| 3   | PKS   | "L" for PTT / mic mute | White       |
+| 4   | PR9   | 9600 Output (discrim.) | Black       |
+| 5   | PR1   | 1200 Output            | ---         |
+| 6   | SQC   | COS - "H" for open     | Red         |
+| 7   | -     | Unused                 | Black (cut) |
+| 8   | E     | Common Ground          | Green       |
 
 For the audio, I'm using a TRRS "headset" type 1/8" phono
 plug where the Tip and first ring are wired to the audio
@@ -117,6 +123,11 @@ output from the soundcard, the 2nd ring is the audio ground,
 and the shield is the audio input to the soundcard. This is
 more convenient than the more popular 2-jack soundcards
 because only a single audio cable is required.
+
+T - Left Channel (Red)
+R - Right Channel (White)
+R - Ground (Green)
+S - Mic / Audio In (Black)
 
 For the PTT, COS, and common ground, I'm bringing the pins
 out to 3x pin socket to connect directly to the Raspberry Pi
