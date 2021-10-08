@@ -8,6 +8,7 @@ import re
 
 
 STATES = ("Washington", "Oregon")
+HERE = pathlib.Path(__file__).resolve(strict=True).parent
 
 
 def extract_ids_from_favs(favs_html):
@@ -39,8 +40,8 @@ def x_load_favs():
 
 
 if __name__ == "__main__":
-    repeaters = json.loads(pathlib.Path("repeaters.json").read_text())
-    pathlib.Path("repeaters_generated.json").write_text(
+    repeaters = json.loads((HERE / "repeaters.json").read_text())
+    (HERE / "repeaters_generated.json").write_text(
         json.dumps(combine_from_favs(repeaters, STATES))
     )
     print("wrote repeaters_generated.json")
