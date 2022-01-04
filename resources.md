@@ -3,6 +3,10 @@ layout: page
 title: Resources
 ---
 
+# Cowlitz County
+
+* [Ham Radio Activity Calendar](/calendar)
+
 # HF
 
 * [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
