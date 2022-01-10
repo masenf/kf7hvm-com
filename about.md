@@ -13,24 +13,24 @@ Southwest Washington and Northwest Oregon.
 * [DMR Oregon 1 (TG 3141)](http://pnwdigital.net/repeaters.html)
   * I regularly monitor OR 1 and respond to calls nearly all day.
   * Access through PNWDigital network or Brandmeister.
-* [W7BU Wickiup: 146.66 Mhz \[- 118.8\]](https://www.repeaterbook.com/repeaters/details.php?state_id=41&ID=176) - Not linked
-* [W7BU Nicolai: 146.76 \[- 118.8\]](https://www.repeaterbook.com/repeaters/details.php?ID=178&state_id=41) - [BeachNet Linked](https://w7buhams.club/)
 * Simplex: 146.52 Mhz (National 2m FM Calling Frequency)
   * I mostly monitor .52 on road trips and while hiking.
 * [**Longview-centric Frequencies**](_posts/2020-09-22-longview-centric-frequencies.md)
 
 ### Base Station
 
-Yaesu FT-2980 with roof mounted 5/8 wave vertical
+Kenwood TM-V71a with roof mounted 5/8 wave vertical
 
 [<img src="/images/antenna_roof_thumb.jpg" alt="me standing on my roof next to the 2m vertical">](/images/antenna_roof.jpg)
 [<img src="/images/yaesu-ft2980_thumb.jpg" alt="yaesu FT-2980">](/images/yaesu-ft2980.jpg)
+(previous radio)
 
 #### SDR Scanner
 
 [<img src="/images/rtl-sdr_thumb.jpg" alt="rtl-sdr plugged into rock64">](/images/rtl-sdr.jpg)
 
-I have this attached to an antenna switch and turn it on when I'm not operating the Yaesu.
+This scanner is using a magmount attached to a tin roof in my backyard. It's
+always on, uploading recordings to [scanner.kf7hvm.com](https://scanner.kf7hvm.com)
 
 ### Handheld
 
