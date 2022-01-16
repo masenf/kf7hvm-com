@@ -11,3 +11,10 @@ These are manual steps when updating certain generated data files.
 ## `make qso-form`
 
 ## `make repeater-map`
+
+# thumbnail creation
+
+```
+convert *.jpg   -auto-orient -thumbnail 250x90 \
+    -set filename:fname '%t_tn' +adjoin '%[filename:fname].png'
+```
