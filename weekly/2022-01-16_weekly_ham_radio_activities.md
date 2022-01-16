@@ -35,6 +35,7 @@ permalink: /weekly/2022-01-16
   - Good participation at LCARA: [TBD participants]
   - Total contacts: [TBD]
   - Total points: [TBD]
+- [Last week's newsletter](/weekly/2022-01-09)
 
 # For Sale 🏷
 

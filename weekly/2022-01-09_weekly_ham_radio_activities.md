@@ -4,6 +4,8 @@ title: 2022-01-09 Weekly Ham Radio Activities
 permalink: /weekly/2022-01-09
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-01-16)?_
+
 * **Have you renewed your LCARA Membership yet?**
   * Dues for 2022 are due Jan 31st
   * New application is required: [http://w7dg.org/w7dgreference.html](http://w7dg.org/w7dgreference.html)
