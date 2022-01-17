@@ -32,9 +32,10 @@ permalink: /weekly/2022-01-16
 
 - 01/12 Wed 1900: LCARA Presentation Night [[Youtube](https://www.youtube.com/watch?v=AonilN0h2xA)]
 - 01/15 Sat, 01/16 Sun: [ARRL VHF Contest](http://www.arrl.org/january-vhf)
-  - Good participation at LCARA: [TBD participants]
-  - Total contacts: [TBD]
-  - Total points: [TBD]
+  - Participation at LCARA: W7KDG Lloyd, N2RJR Ralph, WA7NWN Rick, N3EG Earl, KC6FLG Kevin, KF7HVM Masen
+  - Total contacts: 86 (38 USB / 48 FT8)
+    - Bands: 6m, 2m, 70cm, 23cm
+  - Total points: ~2,178
 - [Last week's newsletter](/weekly/2022-01-09)
 
 # For Sale 🏷
