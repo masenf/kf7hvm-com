@@ -29,14 +29,14 @@ permalink: /weekly/2022-01-16
 ## Nets ✅
 
 - 01/16 Sun 2015: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
-  - W7DG 147.26 MHz +060 T114
+  - W7DG 147.260 MHz T114 +060
 - 01/17 Mon 2000: [Cowlitz County ACS](http://cowlitzradio.org/) Net - Open to all Amateurs
-  - W7DG 147.26 MHz +060 T114
+  - W7DG 147.260 MHz T114 +060
   - Check in via APRS message to N7DEM-5: CHECKIN Name Location
 - 01/18 Tue 0900: CEMNET Region IV Net - Winlink, V-Tac 12 (EOC)
   - Email kf7hvm@0x26.net to be added to the weekly Winlink test
 - 01/18 Tue 1900: [Columbia Amateur Radio Assoc.](http://www.n7ei.org/) Weekly Net
-  - N7EI 146.88 MHz -060 T114
+  - N7EI 146.880 MHz T114 -060
 
 # For Sale 🏷
 
@@ -53,7 +53,7 @@ recently repaired and tested.
 
 [Manual](https://www.icomjapan.com/uploads/support/manual/IC-736_738.pdf)
 
-## [Kenwood TS-850S](https://www.universal-radio.com/catalog/hamhf/ts850s.html) - $300
+## [Kenwood TS-850S](https://www.universal-radio.com/catalog/hamhf/ts850s.html) - $300 - Sale Pending
 
 [<img src="/images/weekly/for_sale_kenwood_ts-850s_tn.png">](/images/weekly/for_sale_kenwood_ts-850s.jpg)
 
