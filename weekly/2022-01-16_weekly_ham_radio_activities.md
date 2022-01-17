@@ -41,7 +41,7 @@ permalink: /weekly/2022-01-16
 # For Sale 🏷
 
 These club-owned transceivers are being offered for sale to members before
-being listed online. Proceeds benefit LCARA. Please make and offer or reply for
+being listed online. Proceeds benefit LCARA. Please make offer or reply for
 more information.
 
 ## [ICOM IC-736](https://www.universal-radio.com/catalog/hamhf/736.html) - $300
