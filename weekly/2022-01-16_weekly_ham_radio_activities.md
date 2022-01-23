@@ -4,6 +4,8 @@ title: 2022-01-16 Weekly Ham Radio Activities
 permalink: /weekly/2022-01-16
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-01-23)?_
+
 * **Have you renewed your LCARA Membership yet?**
   * Dues for 2022 are due **Jan 31st**
   * New application is required: [http://w7dg.org/w7dgreference.html](http://w7dg.org/w7dgreference.html)
@@ -53,7 +55,7 @@ recently repaired and tested.
 
 [Manual](https://www.icomjapan.com/uploads/support/manual/IC-736_738.pdf)
 
-## [Kenwood TS-850S](https://www.universal-radio.com/catalog/hamhf/ts850s.html) - $300 - Sale Pending
+## <del>[Kenwood TS-850S](https://www.universal-radio.com/catalog/hamhf/ts850s.html)</del> Sold! Thank you Marc.
 
 [<img src="/images/weekly/for_sale_kenwood_ts-850s_tn.png">](/images/weekly/for_sale_kenwood_ts-850s.jpg)
 
