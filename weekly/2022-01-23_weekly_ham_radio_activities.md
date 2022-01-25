@@ -22,7 +22,7 @@ permalink: /weekly/2022-01-23
 - 01/26 Wed 1900: **LCARA Technical Committee** meeting at LCARA Clubhouse
   - Discussions and planning for equipment repairs and improvements
   - Members should attend if they have feedback on technical station matters
-- 01/29 Sat 0900: **Communication Exercise**
+- **CANCELLED:** <del>01/29 Sat 0900: Communication Exercise</del> **CANCELLED**
   - Will be a scavenger hunt and trivia puzzle if there is enough participation
   - Opportunity to practice APRS (even without RF), drive around, or
     provide crucial support from a home location.
