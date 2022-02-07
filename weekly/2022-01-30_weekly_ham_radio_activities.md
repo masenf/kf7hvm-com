@@ -4,6 +4,8 @@ title: 2022-01-30 Weekly Ham Radio Activities
 permalink: /weekly/2022-01-30
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-02-06)?_
+
 * Thanks to all members who have joined for 2022, your support is appreciated!
 
 ## Recap 🔁
