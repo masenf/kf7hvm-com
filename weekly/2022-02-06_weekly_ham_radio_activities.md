@@ -24,11 +24,11 @@ _**Comm Van Checks due by Feb 10, 2022**_
     - Flatten mole hills to prepare for mowing
   - Thanks to **Matt KD7BBJ** and **Mike KI7MPV** for pitching in the last 2
     Fridays in a row around the club.
-- 02/12 Sat 1000 - **VE Testing** at LCARA Clubhouse
-  - Pre-register by emailing [w7dg.lcara@gmail.com](mailto:w7dg.lcara@gmail.com)
 - 02/12 Sat 0800: **Operation Hot Wire** - _Washington State Guard_
   - LCARA Members received an email 02/03 17:22 PST with more information.
   - Contact [KI7BXF John](mailto:john@johnmsauer.com)
+- 02/12 Sat 1000 - **VE Testing** at LCARA Clubhouse
+  - Pre-register by emailing [w7dg.lcara@gmail.com](mailto:w7dg.lcara@gmail.com)
 - _Next Month_ 03/12 Sat 0900: [**40th Mike & Key Swap
   Meet**](http://mikeandkey.org/SwapMeet.php) (Puyallup, WA)
 
