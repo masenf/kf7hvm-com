@@ -16,6 +16,7 @@ _**Comm Van Checks due by Feb 10, 2022**_
 - 02/08 Tue: LEPC - Local Emergency Planning Committee (ACS)
 - 02/09 Wed 1900: **LCARA Presentation Night**: FRS, GMRS, and MURS: the Public Non-Amateur Services
   - Presented by KF7HVM at the LCARA clubhouse (Door 18:30)
+  - [Youtube: https://www.youtube.com/watch?v=SoGk0_F7Cqw](https://www.youtube.com/watch?v=SoGk0_F7Cqw)
   - [ZOOM: https://us02web.zoom.us/j/87205892949](https://us02web.zoom.us/j/87205892949) (18:30)
 - 02/11 Fri 0900: **Groundkeeping Party** in preparation for Saturday visitors
   - To sign up, please reply; currently we need helpers for
