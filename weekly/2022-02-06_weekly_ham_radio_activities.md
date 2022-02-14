@@ -4,6 +4,8 @@ title: 2022-02-06 Weekly Ham Radio Activities
 permalink: /weekly/2022-02-06
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-02-13)?_
+
 ## Recap 🔁
 
 - 02/02 Wed: Cowlitz ACS meeting. [New Bylaws Approved!](http://cowlitzradio.org/downloads/ACSBylaws2022.pdf)
