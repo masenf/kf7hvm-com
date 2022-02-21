@@ -4,6 +4,8 @@ title: 2022-02-13 Weekly Ham Radio Activities
 permalink: /weekly/2022-02-13
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-02-20)?_
+
 ## Recap 🔁
 
 - 02/09 Wed: [**LCARA Presentation Night**: FRS, GMRS, and MURS: the Public Non-Amateur Services](https://www.youtube.com/watch?v=SoGk0_F7Cqw)
