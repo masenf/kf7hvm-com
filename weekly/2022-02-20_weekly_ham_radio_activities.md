@@ -4,6 +4,8 @@ title: 2022-02-20 Weekly Ham Radio Activities
 permalink: /weekly/2022-02-20
 ---
 
+_Maybe you're looking for [next week](/weekly/2022-02-27)?_
+
 ## Recap 🔁
 
 - 02/16 Wed 1900 LCARA Business Meeting - Budget was approved
