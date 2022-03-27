@@ -3,23 +3,18 @@ layout: page
 title: Resources
 ---
 
-# Cowlitz County
+# Cowlitz County / Local
 
 * [Ham Radio Activity Calendar](/calendar)
-
-# HF
-
-* [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
-* [HF Bands](http://www.hamuniverse.com/hfbands.html) - overview of different band characteristics
-  * [ARRL Band Plan](http://www.arrl.org/band-plan) - where to find certain types of signals
-* [pskreporter.info](https://pskreporter.info/pskmap.html) - propagation reports
-  from stations using [wsjt-x](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html)
+* [NA7Q AllStar](http://allstar.na7q.com:81)
+* [W7DG Weather](http://weather.w7dg.net)
 
 # Digital Radio
 
-* [JS8Call](http://js8call.com/) - a messaging system build on JS8 (FT8)
+## [AX.25 Packet Radio](/info/packet/) (w/ video)
+
 * [ARDOP](https://www.winlink.org/content/ardop_overview) - next gen connected mode data protocols (HF/VHF/UHF)
-* [SSTV Primer](https://hamsoft.ca/pages/mmsstv/sstv-primer.php) (2001)
+  * Or is it abandoned in favor of closed source VARA?? 
 
 ## DMR
 
@@ -38,6 +33,19 @@ Alternate programming software that I've found:
 
 * [Intro to DMR (Miklor)](https://www.miklor.com/DMR/ppt/DMR-BasicTutorial.pdf) (PDF)
 * [Re: Duplex v Simplex Hotspots ?](https://groups.io/g/GeorgiaDMR/message/455)
+
+## Other Digital
+
+* [JS8Call](http://js8call.com/) - a messaging system build on JS8 (FT8)
+* [SSTV Primer](https://hamsoft.ca/pages/mmsstv/sstv-primer.php) (2001)
+
+# HF
+
+* [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
+* [HF Bands](http://www.hamuniverse.com/hfbands.html) - overview of different band characteristics
+  * [ARRL Band Plan](http://www.arrl.org/band-plan) - where to find certain types of signals
+* [pskreporter.info](https://pskreporter.info/pskmap.html) - propagation reports
+  from stations using [wsjt-x](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html)
 
 # Antennas
 
