@@ -4,7 +4,7 @@ title: 2022-03-20 Weekly Ham Radio Activities
 permalink: /weekly/2022-03-20
 ---
 
-_[Last week's newsletter](/weekly/2022-03-13)_
+_Maybe you're looking for [next week](/weekly/2022-03-27) or [last week's newsletter](/weekly/2022-03-13)_?
 
 ## Recap 🔁
 
