@@ -128,3 +128,8 @@ _Windows Installation Note_: use Java 11, create shortcut: `java -jar C:\Users\H
 
 Cross-platform open-source [Winlink](https://www.winlink.org/) client,
 supporting forms and peer-to-peer messaging.
+
+# PC Hardware
+
+Current recommendation is [Raspberry Pi 3B or 4B](https://www.raspberrypi.org/) or
+[refurbished chromebook](/2022/04/15/chromebook-for-amateur-radio/).
