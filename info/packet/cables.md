@@ -1,0 +1,124 @@
+---
+layout: page
+title: TNC Cables
+---
+
+Out of
+[TRRS](https://en.wikipedia.org/wiki/File:TRRS_3.5mm_-_2_length_variants.jpg),
+[6-pin miniDIN](https://commons.wikimedia.org/wiki/File:MiniDIN-6_Connector_Pinout.svg),
+and [DE-9](https://commons.wikimedia.org/wiki/File:9_pin_d-sub_connector_male_closeup.jpg),
+I've found [**8P8C Modular Connector**](https://en.wikipedia.org/wiki/Modular_connector#8P8C)
+("RJ-45") ends are the simplest to construct, cheapest, and most universal
+connector for TNCs. Buying a [modular connector crimp
+tool](https://en.wikipedia.org/wiki/Modular_connector#Termination) to build TNC
+interface cables is a good investment for such common connectors. Other special
+ends can be purchased as pre-made cables and adapters can be paired with simple
+[RJ-45 couplers](https://www.newegg.com/p/36M-01FW-00001?Description=rj45%20coupler&cm_re=rj45_coupler-_-36M-01FW-00001-_-Product).
+
+# Pinout
+
+The common [**signalink "straight thru" pinout**
+(RJ-45)](http://masterscommunications.com/products/radio-adapter/dra/txt/dra34-RJ45-pinout.txt)
+[Credit: [Masters Communications](http://masterscommunications.com)]
+is a good choice for interoperability.
+
+Pinout shown as you are looking into the open end of the RJ-45 female socket.
+Orientation is contact pins are up and the locking tab slot is down.
+
+The pinout follows standard EIA Ethernet numbering.
+
+```
+ 12345678
+ ________
+|''''''''|
+|        |
+|__    __|
+|__|__|__|
+```
+
+  * 1 = RX Audio
+  * 2 = TX Audio
+  * 3 = PTT
+  * 4 = COS - Not normally used
+  * 5 = CTCSS - Not normally used
+  * 6 = Ground
+  * 7 = Ground
+  * 8 = Ground
+
+**"RX Audio"** corresponds to the speaker / packet output of the radio
+and the mic/line input of the soundcard.
+
+**"TX Audio"** corresponds to the microphone / data in of the radio
+and the output of the soundcard.
+
+The other end of the cable is radio-dependent. Typically, I will cut cables with
+special connectors and recrimp the other ends with RJ-45: simple, high-quality
+connections without soldering.
+
+# 6-pin MiniDIN
+
+<a href="/images/packet/6pin_din.jpg">
+<img style="float: left; padding: 10px" src="/images/packet/6pin_din_tn.png">
+</a>
+
+Commonly known as a PS/2 connector, found on many keyboard and mice from the 90s and
+2000s. Maybe these connectors can be pillaged from an old piece of hardware? But some may
+be missing wires for certain pins. A "data" cable is a sure bet, and can be used to build
+2 TNC cables.
+
+Below is the most common pinout that I've encountered with this connector. There is no
+standard wire coloring, but I've found cables of the same brand/batch to be consistent.
+Always better to check with a meter and then double check.
+
+<img src="/images/packet/6pin_din_pinout.png">
+
+Diagram snipped from
+the [Kenwood TM-V71a Manual [PDF]](http://manual.kenwood.com/files/B62-1926-40.pdf)
+
+# [2-Prong K-Style connector](/images/packet/k_type.jpg)
+
+This seems like the most common connector type on handheld radios,
+particularly from China, so it's nice to have a few of these on hand
+for quick testing.
+
+<a href="https://www.miklor.com/COM/UV_Technical.php#spkrmic">
+<img src="/images/packet/k_type_pinout.png">
+</a>
+
+Miklor provides an info page
+with [excellent diagrams](https://www.miklor.com/COM/UV_Technical.php#spkrmic) of the plug
+pinout (one of which is reproduced here).
+
+**Remember: ferrite chokes can be added to USB and Audio cables to reduce RFI and improve
+performance**, particularly when the transmitter and antenna may be in close proximity
+to the node.
+
+## Signalink [SLCABHTW](https://shop.tigertronics.com/Extra-Radio-Cable-p-n-SLCABHTW-SLCABHTW.htm)
+
+Unfortunately, the SLCABHTW **isn't wired straight through**, so it can't be directly used
+with the [DRA-34](http://masterscommunications.com/products/radio-adapter/dra/dra34.html)
+or a generically wired Signalink. I'm not _exactly_ sure why Tigertronics manufactures the
+RJ-45 modular end with a multitude of different pinouts, and relies on "jumpering"
+for compatibility, but it sure makes it harder to reuse one soundcard with different radios.
+
+Thankfully, it's easy enough to lop the end off and make it right! Using the
+included jumper sheet, one can even infer the correct wires without a meter.
+
+  * 1 = RX Audio Green (SPKR 5)
+  * 2 = TX Audio Red (MIC 1)
+  * 3 = PTT Light Blue (PTT 3)
+  * 4 = Empty
+  * 5 = Empty
+  * 6 = Ground Black (G 2)
+
+Other wires that I cut off to avoid shorts:
+
+  * White - Ring 2.5mm - TX Data
+  * Orange - Tip 3.5mm - V+
+
+## 3.5mm + 2.5mm phono
+
+I went looking for K-type connector ends (for repairing speaker mics) and found quite a
+few on ebay that would take a long time to ship. Alternatively, it's easy to find separate
+3.5mm and 2.5mm stereo phono ends or "headphone" cords that go from 2.5mm to 3.5mm and can
+be cut in half and recombined with a modular plug to make a homebrew connector.

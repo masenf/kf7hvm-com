@@ -64,7 +64,9 @@ There are three types of interfaces used in my station:
     * Most expensive option, but fully plug and play due to integrated VOX circuit.
     * Extensive pre-fab cable collection if you don't want to make your own.
 
-## The Cable
+## [The Cable](/info/packet/cables)
+
+<img style="float: right; padding: 10px; max-width: 200px" src="/images/packet/rj45.png">
 
 Out of
 [TRRS](https://en.wikipedia.org/wiki/File:TRRS_3.5mm_-_2_length_variants.jpg),
@@ -78,37 +80,7 @@ interface cables is a good investment for such common connectors. Other special
 ends can be purchased as pre-made cables and adapters can be paired with simple
 [RJ-45 couplers](https://www.newegg.com/p/36M-01FW-00001?Description=rj45%20coupler&cm_re=rj45_coupler-_-36M-01FW-00001-_-Product).
 
-The common [**signalink "straight thru" pinout**
-(RJ-45)](http://masterscommunications.com/products/radio-adapter/dra/txt/dra34-RJ45-pinout.txt)
-[Credit: [Masters Communications](http://masterscommunications.com)]
-is a good choice for interoperability.
-
-Pinout shown as you are looking into the open end of the RJ-45 female socket.
-Orientation is contact pins are up and the locking tab slot is down.
-
-The pinout follows standard EIA Ethernet numbering.
-
-```
- 12345678
- ________
-|''''''''|
-|        |
-|__    __|
-|__|__|__|
-```
-
-  * 1 = RX Audio
-  * 2 = TX Audio
-  * 3 = PTT
-  * 4 = COS - Not normally used
-  * 5 = CTCSS - Not normally used
-  * 6 = Ground
-  * 7 = Ground
-  * 8 = Ground
-
-The other end of the cable is radio-dependent. Typically, I will cut cables with
-special connectors and recrimp the other ends with RJ-45: simple, high-quality
-connections without soldering.
+## See [TNC Cables](/info/packet/cables) for detailed information
 
 # Client Software
 
