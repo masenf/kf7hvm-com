@@ -122,3 +122,31 @@ I went looking for K-type connector ends (for repairing speaker mics) and found 
 few on ebay that would take a long time to ship. Alternatively, it's easy to find separate
 3.5mm and 2.5mm stereo phono ends or "headphone" cords that go from 2.5mm to 3.5mm and can
 be cut in half and recombined with a modular plug to make a homebrew connector.
+
+The connectors I bought on amazon pin out with following colors:
+
+### 3.5mm
+
+* Tip (+V): red (cut)
+* Ring (Mic TX Audio): white
+* Shield (PTT): black
+
+### 2.5mm
+
+* Tip (Speaker RX Audio): red
+* Ring (DATA): white (cut)
+* Shield (PTT): black
+
+### RJ45
+
+* 1 = RX Audio - 2.5 Tip Red
+* 2 = TX Audio - 3.5 Ring White
+* 3 = PTT - 3.5 Shield Black
+* 6 = Ground - 2.5 Shield Black
+
+## 4-conductor speakermic leads to RJ45
+
+* 1 = RX Audio - 2.5 Tip Green
+* 2 = TX Audio - 3.5 Ring Red
+* 3 = PTT - 3.5 Shield Black
+* 6 = Ground - 2.5 Shield White
