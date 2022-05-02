@@ -24,9 +24,11 @@ Check out the new [packet radio](/info/packet) info pages for help getting set u
 
 ### Participating Stations
 
-(Will be updated as time permits)
-
-  * Exercise not started
+* KF7HVM (NCS)
+* APRS+Winlink: KD7UQR, K7WCT, AD7UF, N7QIN, KB6OWW,
+* Winlink Only: KA7LRC, KJ6ETR, AE7KJ
+* APRS Only: KD7BBJ, KI7RSB, KI7RSA
+* Voice Only: WA7RPM, KB7PMO
 
 ### BBS / Packet Nodes
 
