@@ -150,3 +150,23 @@ The connectors I bought on amazon pin out with following colors:
 * 2 = TX Audio - 3.5 Ring Red
 * 3 = PTT - 3.5 Shield Black
 * 6 = Ground - 2.5 Shield White
+
+# Yaesu 10-pin
+
+<img src="/images/packet/6pin_din_pinout.png">
+
+Image snipped from `FTM-400XDR_DE_OM_ENG_EH034M210_1608U-EM-2.pdf`
+
+Since the Yaesu internal TNC isn't exposed via serial or bluetooth
+our next best bet is to use a soundcard with the standard pinout.
+Colors given below are from the CT-167 cable, but you can find a similar
+connector ends for $5 on ebay (although I cannot vouch for their
+quality)
+
+  * 1 = RX Audio - Orange, pin 4
+  * 2 = TX Audio - Brown, pin 1
+  * 3 = PTT - Red, pin 3
+  * 4 = COS - Green, pin 6
+  * 6 = Ground - black, thick
+
+Cut Yellow, Blue, Grey, White, Black
