@@ -151,9 +151,24 @@ The connectors I bought on amazon pin out with following colors:
 * 3 = PTT - 3.5 Shield Black
 * 6 = Ground - 2.5 Shield White
 
+# Kenwood RJ-45
+
+<img src="/images/packet/kenwood_tm-261.png">
+
+Although missing from the modern variant, TM-281A, the previous model, the
+TM-261A actually has an RD (Read Data?) pin on the microphone jack, which can
+be used to get pre-squelch packet audio. This is very convenient as it retains
+the internal speaker functionality for monitoring.
+
+* 1 = RX Audio - KW Pin 2 Yellow
+* 2 = TX Audio - KW Pin 3 Red
+* 3 = PTT - KW Pin 5 Orange
+* 6 = Ground - KW Pin 4 Black
+* 7 = Ground - KW Pin 6 Grey
+
 # Yaesu 10-pin
 
-<img src="/images/packet/6pin_din_pinout.png">
+<img src="/images/packet/10pin_yaesu_pinout.png">
 
 Image snipped from `FTM-400XDR_DE_OM_ENG_EH034M210_1608U-EM-2.pdf`
 
