@@ -44,6 +44,7 @@ Alternate programming software that I've found:
 * [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
 * [HF Bands](http://www.hamuniverse.com/hfbands.html) - overview of different band characteristics
   * [ARRL Band Plan](http://www.arrl.org/band-plan) - where to find certain types of signals
+* [Grounding and Receiver Noise](https://kv5r.com/ham-radio/grounding-and-receiver-noise/)
 * [pskreporter.info](https://pskreporter.info/pskmap.html) - propagation reports
   from stations using [wsjt-x](https://physics.princeton.edu/pulsar/k1jt/wsjtx.html)
 
