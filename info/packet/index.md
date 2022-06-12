@@ -103,5 +103,10 @@ supporting forms and peer-to-peer messaging.
 
 # PC Hardware
 
-Current recommendation is [Raspberry Pi 3B or 4B](https://www.raspberrypi.org/) or
+
+<a href="/info/packet/pi4-setup">
+<img style="float: right" src="/images/raspberrypi4_tn.png">
+</a> Current recommendation is [Raspberry Pi 3B or 4B](https://www.raspberrypi.org/) or
 [refurbished chromebook](/2022/04/15/chromebook-for-amateur-radio/).
+
+[Raspberry Pi (any) Setup Guide 2022-04-06](/info/packet/pi4-setup)

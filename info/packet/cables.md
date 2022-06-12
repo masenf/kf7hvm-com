@@ -185,3 +185,44 @@ quality)
   * 6 = Ground - black, thick
 
 Cut Yellow, Blue, Grey, White, Black
+
+# Alinco DB-9
+
+The DB-9 is another common connector, which can often be pilfered from
+an existing unused cable. Alternatively, DB-9 male-to-male jumpers are cheap
+and easy to source.
+
+<img src="/images/packet/alinco-dr135t-db9.png">
+
+Image taken from p. 41 of the [DR-135T mkIII manual [PDF]](http://www.alinco.com/pdffiles/Instruction/Mobile/dr135_435mk3_fxe_insweb.pdf).
+
+  * 1 = RX Audio - pin 2 LIGHT RED (9600 baud)
+  * 2 = TX Audio - pin 3 DARK RED (9600 baud)
+  * 3 = PTT - pin 7 DARK BLUE (shiney)
+  * 4 = COS - pin 1 BLACK
+  * 6 = Ground - pin 5 YELLOW
+
+# [RA-33 Adapter](http://www.masterscommunications.com/products/radio-adapter/txt/ra33-DB9-pinout.txt)
+
+* 1 = RX Audio - pin 6 ORANGE
+* 2 = TX Audio - pin 2 LIGHT RED
+* 3 = PTT - pin 5 YELLOW
+* 4 = COS - pin 3 DARK RED (leave disconnected for non-AllStar use)
+* 6 = Ground - pin 8 DULL BLUE
+
+# Direct GPIO Adapter
+
+This adapter uses a USB sound card + GPIO pins available on a Raspberry Pi
+to key PTT. To avoid damage to the Pi itself, a transistor and resistor
+will be used to avoid hitting the pin with 5v directly.
+
+For PTT purposes, I recommend RPi pin 16 (GPIO 23) or 18 (GPIO 24) with easily
+accessible ground pin on either side. In the examples, I'll be using pin 18.
+
+Until a schematic can be posted, the circuit is essentially a [PN2222](https://www.onsemi.com/pdf/datasheet/pn2222-d.pdf)
+NPN transistor with
+  * radio PTT line on the collector pin
+  * raspi GPIO through a 100k resistor on the base pin
+  * ground on the emitter pin
+
+When the GPIO is pulled high, it switches the transistor ON, and PTT is activated.
