@@ -83,10 +83,18 @@ installing any further software.
 
     sudo apt-get update && sudo apt-get upgrade -y
 
-## Install `xrdp` (optional)
+## Remote Graphical Desktop
 
-`xrdp` allows remote desktop access using tools commonly found on Windows, Linux, and
-macOS.
+Raspberry Pi OS includes
+a [VNC server](https://www.raspberrypi.com/documentation/computers/remote-access.html#virtual-network-computing-vnc)
+that can be enabled in `raspi-config` > 3. Interface Options > VNC.
+
+VNC viewer applications are available for most platforms.
+
+### Install `xrdp` (optional)
+
+Alternatively, `xrdp` allows remote desktop access using tools commonly found preinstalled
+on Windows and Linux.
 
     sudo apt-get install -y xrdp
 
@@ -96,15 +104,15 @@ on recent releases, but isn't too hard to fix.
 
 Edit `/etc/X11/xrdp/xorg.conf`, and change the existing line to remove the `DRMDevice` path.
 
-### Before
+#### Before
 
     Option "DRMDevice" "/dev/dri/renderD128"
 
-### After
+#### After
 
     Option "DRMDevice" ""
 
-### Enable the Service
+#### Enable the Service
 
     sudo systemctl enable xrdp
     sudo systemctl reboot
@@ -117,7 +125,8 @@ Steps taken from the repo [README](https://github.com/wb2osz/direwolf/#linux---u
     cd ~
     git clone https://www.github.com/wb2osz/direwolf
     cd direwolf
-    git checkout dev
+    # to install pre-release version, checkout `dev` branch (bugs may exist)
+    # git checkout dev
     mkdir build && cd build
     cmake ..
     make -j4
@@ -191,7 +200,7 @@ APRS client that provides advanced features.
 
 ### Extract the YAAC.zip file
 
-In this guide, I suggest extracting YAAC to `/home/pi/code/YAAC`, but if
+In this guide, I suggest extracting YAAC to `~/code/YAAC`, but if
 you're using a different user, or would prefer a different location,
 adjust the paths in the .desktop file accordingly.
 
@@ -201,13 +210,13 @@ adjust the paths in the .desktop file accordingly.
 
 ### Create a desktop entry
 
-`/usr/local/share/applications/yaac.desktop`
+`/usr/local/share/applications/yaac.desktop` (**replace path to `YAAC.jar` appropriately**)
 
 ```
 [Desktop Entry]
 Name=YAAC
 Comment=Yet Another APRS client
-Exec=/usr/bin/java -jar /home/pi/code/YAAC/YAAC.jar
+Exec=/usr/bin/java -jar /home/johndoe/code/YAAC/YAAC.jar
 Icon=yaaclogo64.ico
 StartupNotify=true
 Terminal=false
@@ -236,17 +245,35 @@ that might differ from the official docs.
 
 Use `pat` with a TNC requires ax25 support packages and a small bit of configuration.
 
-    apt-get install ax25-tools ax25-utils
+    apt-get install libax25 ax25-tools
+
+For additional programs used in connected mode packet, like `axlisten` and `axcall`, also
+install the `ax25-apps` package
+
+    apt-get install ax25-apps
 
 #### Create the port
 
 Edit `/etc/ax25/axports` to add the following line:
 
 ```
-wl2k N0CALL 1200 255 1 pat winlink
+wl2k N0CALL 1200 255 2 pat winlink
 ```
 
-In this case, replace `N0CALL` with your actual callsign.
+In this line, replace `N0CALL` with your actual callsign.
+
+Two other values in the port definition may need some adjustment based on the situation.
+
+* `255` in the example is the `paclen` or MTU and controls the packet size. For noisy or distant
+  connections a lower number (`128`) may improve reception in exchange for slower
+  potential transfer speed. (Although if the link is poor, retransmissions of larger
+  MTU packets will decimate the throughput).
+* `2` in the example is the `window` size, or maximum number of outstanding packets.
+  Larger numbers allow more unacknowledged data to be sent and may improve performance
+  on high quality channels. Smaller numbers can improve reliability in sub-optimal conditions.
+
+See [`man axports(5)`](https://manpages.debian.org/testing/libax25/axports.5.en.html) for
+more information
 
 ### Create support scripts
 
@@ -254,7 +281,8 @@ In this case, replace `N0CALL` with your actual callsign.
 
 ```shell
 #!/usr/bin/env bash
-kissattach -m 128 $(readlink /tmp/kisstnc) wl2k && kissparms -c 1 -p wl2k
+kissattach -m ${PACLEN:-255} $(readlink /tmp/kisstnc) ${AXPORT:-wl2k} \
+  && kissparms -c 1 -p ${AXPORT:-wl2k}
 ```
 
 `/usr/bin/pathttp.sh`
@@ -268,7 +296,9 @@ After creating the scripts, make them executable:
 
     chmod a+x /usr/bin/patattach.sh /usr/bin/pathttp.sh
 
-(Optional) Add `/usr/bin/patattach.sh` to `sudoers` file to avoid password prompt.
+(Optional) Add `/usr/bin/patattach.sh` to `/etc/sudoers` file to avoid password prompt.
+
+    johndoe ALL=(ALL) NOPASSWD: /usr/bin/patattach.sh
 
 ### Create the desktop entry
 
@@ -292,4 +322,7 @@ Before pat will start up, run `pat configure`, and complete the steps.
 
 # Ready to Go
 
-The system should be in good shape for packet use.
+The system should be in good shape for _manual-start_ packet use.
+
+Configuring systemd units to run these programs on startup may be
+covered in the future.
