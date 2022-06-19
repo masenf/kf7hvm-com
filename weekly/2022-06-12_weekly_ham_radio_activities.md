@@ -4,7 +4,7 @@ title: 2022-06-12 Weekly Ham Radio Activities
 permalink: /weekly/2022-06-12
 ---
 
-_[Last week's newsletter](/weekly/2022-06-05)_
+_Maybe you're looking for [next week](/weekly/2022-06-19) or [last week's newsletter](/weekly/2022-06-05)_?
 
 ## Recap 🔁
 
