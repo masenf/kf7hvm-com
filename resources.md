@@ -42,6 +42,7 @@ Alternate programming software that I've found:
 # HF
 
 * [Northern Utah WebSDR](http://sdrutah.org/) - great way to explore the bands
+  * [kiwisdr](http://kiwisdr.com/) - publicly accessible SDRs around the world
 * [HF Bands](http://www.hamuniverse.com/hfbands.html) - overview of different band characteristics
   * [ARRL Band Plan](http://www.arrl.org/band-plan) - where to find certain types of signals
 * [Grounding and Receiver Noise](https://kv5r.com/ham-radio/grounding-and-receiver-noise/)
