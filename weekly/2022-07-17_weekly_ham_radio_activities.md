@@ -4,7 +4,7 @@ title: 2022-07-17 Weekly Ham Radio Activities
 permalink: /weekly/2022-07-17
 ---
 
-_[Last week's newsletter](/weekly/2022-07-10)_
+_Maybe you're looking for [next week](/weekly/2022-08-01) or [Last week's newsletter](/weekly/2022-07-10)_
 
 ## Recap 🔁
 
