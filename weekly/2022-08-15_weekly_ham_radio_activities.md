@@ -31,7 +31,7 @@ From Ed K7WCT [via Facebook](https://www.facebook.com/groups/LCARA.W7DG/posts/52
   - Email [kf7hvm@0x26.net](mailto:kf7hvm@0x26.net) to be added to the weekly
     Winlink test
   - Winlink test message was missed last week, 08/09 due to technical issues.
-- 08/17 Tue 1900: [Columbia Amateur Radio Assoc.](http://www.n7ei.org/) Weekly Net
+- 08/16 Tue 1900: [Columbia Amateur Radio Assoc.](http://www.n7ei.org/) Weekly Net
   - [N7EI 146.880 MHz T114 -060](https://www.repeaterbook.com/repeaters/details.php?ID=142&state_id=41)
 - 08/21 Sun 2000: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
   - 2000 Woodland Checkin [W7DG 147.300 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?state_id=53&ID=412)
