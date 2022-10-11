@@ -11,6 +11,8 @@ than they've ever been.
 View the [📼 video introduction](https://www.youtube.com/watch?v=AonilN0h2xA) presented by
 KF7HVM at LCARA presentation night Feb 2022.
 
+Read the [VARA+direwolf Hybrid Packet](./vara-direwolf-hybrid-gateway) guide
+
 # Radio
 
 The radio makes up the **physical** layer of the stack and there are hundreds
