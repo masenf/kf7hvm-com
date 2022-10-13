@@ -430,16 +430,26 @@ If you made it this far and are
 source.  You can skip this step when using different PTT method or running
 Debian testing build (bookworm).
 
-update /etc/apt/sources.list to use deb-src from `unstable`
+### Prebuilt Binaries
 
-## Get Dependencies
+[libhamlib-utils-4.3.1](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib-utils_4.3.1-1_amd64.deb)
+[libhamlib4-4.3.1](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib4_4.3.1-1_amd64.deb)
+
+Download and install with `sudo dpkg -i`.
+
+Otherwise, build it yourself as seen below.
+
+### Get Dependencies
+
+#### Update `/etc/apt/sources.list` to use `deb-src` from `testing` (instead of `bullseye`)
+
 ```
 sudo apt-get update
 sudo apt-get install -y build-essential fakeroot devscripts
 sudo apt-get build-dep -y hamlib
 ```
 
-## Build Packages
+### Build Packages
 
 ```
 mkdir -p ~/src/debian && cd ~/src/debian
