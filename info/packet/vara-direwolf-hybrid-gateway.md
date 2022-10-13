@@ -15,7 +15,7 @@ title: VARA FM + Direwolf Hybrid Gateway
 _(See also my [earlier post](/2022/04/15/chromebook-for-amateur-radio/)
 trying out different linux distributions with this particular chromebook)._
 
-This device was chosen primarily due to price ($39 shipped); the x86_64
+This device was chosen primarily due to price ($39 shipped); the x86\_64
 processor also means that _no emulation is necessary when running VARA
 and Winlink Express via Wine_.
 
