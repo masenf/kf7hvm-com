@@ -432,10 +432,17 @@ Debian testing build (bookworm).
 
 ### Prebuilt Binaries
 
-[libhamlib-utils-4.3.1](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib-utils_4.3.1-1_amd64.deb)
-[libhamlib4-4.3.1](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib4_4.3.1-1_amd64.deb)
+* [libhamlib-utils_4.3.1-1_amd64.deb](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib-utils_4.3.1-1_amd64.deb)
+* [libhamlib4_4.3.1-1_amd64.deb](https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib4_4.3.1-1_amd64.deb)
 
-Download and install with `sudo dpkg -i`.
+#### Download and install with `sudo dpkg -i`.
+
+```
+cd /tmp
+wget https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib4_4.3.1-1_amd64.deb
+wget https://github.com/masenf/kf7hvm-com/releases/download/hamlib-4.3.1-debian-11-x86_64/libhamlib-utils_4.3.1-1_amd64.deb
+sudo dpkg -i libhamlib4_4.3.1-1_amd64.deb libhamlib-utils_4.3.1-1_amd64.deb
+```
 
 Otherwise, build it yourself as seen below.
 
