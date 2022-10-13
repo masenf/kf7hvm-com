@@ -345,6 +345,27 @@ sudo apt-get install -y libhamlib-utils socat
 
 **Important:** See note below about hamlib < 4.3 on Debian 11.
 
+Ensure CM108 device is accessible to `audio` group via [`udev` rule](https://github.com/wb2osz/direwolf/blob/7d3c1d100ea38605bf5d11459f5a678be99fffab/conf/99-direwolf-cmedia.rules).
+
+```
+sudo wget -O/etc/udev/rules.d/99-direwolf-cmedia.rules https://raw.githubusercontent.com/wb2osz/direwolf/7d3c1d100ea38605bf5d11459f5a678be99fffab/conf/99-direwolf-cmedia.rules
+```
+
+Plug and unplug the CM108 before continuing; `ls -la /dev/hidraw*` should show  audio group and
+`0640` permissions on the device.
+
+Before
+```
+packet@mf-n23-03:~$ ls -la /dev/hidraw*
+crw------- 1 root root 244, 0 Oct 12 18:01 /dev/hidraw0
+```
+
+After
+```
+packet@mf-n23-03:~$ ls -la /dev/hidraw*
+crw-rw---- 1 root audio 244, 0 Oct 12 19:44 /dev/hidraw0
+```
+
 ## [`socat` 🐈](https://linux.die.net/man/1/socat)
 
 Essentially a pipe swiss army knife and a huge inspiration for how to wire anything
