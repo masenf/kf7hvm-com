@@ -245,7 +245,7 @@ wine $WINEPREFIX/drive_c/VARA\ FM/VARAFM.exe
 ## Bones `direwolf` config
 
 ```
-apt-get install -y direwolf
+sudo apt-get install -y direwolf
 ```
 
 ### `/opt/direwolf.conf`
@@ -270,10 +270,10 @@ scripts in python that enable gateway usage via ax25 direwolf and VARA FM and HF
 without installing or configuring significant software: [`gensio-modems`](https://github.com/masenf/gensio-modems).
 
 ```
-sudo apt-get install python3-pip git
+sudo apt-get install -y python3-pip git
 git clone https://github.com/masenf/gensio-modems
 cd gensio-modems
-/usr/bin/env python3 -m pip install --user -r requirements.txt
+/usr/bin/python3 -m pip install --user -r requirements.txt
 ```
 
 # On Boot
