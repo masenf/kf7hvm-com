@@ -407,7 +407,7 @@ update /etc/apt/sources.list to use deb-src from `unstable`
 ```
 sudo apt-get update
 sudo apt-get install -y build-essential fakeroot devscripts
-sudo apt-get build-dep hamlib
+sudo apt-get build-dep -y hamlib
 ```
 
 ## Build Packages
