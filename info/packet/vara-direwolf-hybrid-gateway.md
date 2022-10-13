@@ -79,7 +79,7 @@ For space reasons, I recommend disabling the GNOME desktop environment.
 
 ### Allow your default user to `sudo`:
 ```
-su
+su -
 usermod -G sudo -a packet
 ```
 
@@ -88,7 +88,7 @@ Log out and in to take effect.
 ### Basics
 ```
 # clean up, if desired
-# sudo apt-get remove libreoffice-core
+# sudo apt-get remove libreoffice-common
 sudo apt-get update
 sudo apt-get upgrade -y
 sudo apt-get install -y tmux vim git 
@@ -121,7 +121,7 @@ sudo mkdir -p /opt/wine-winlink && sudo chown packet /opt/wine-winlink
 export WINEPREFIX=/opt/wine-winlink
 export WINEARCH=win32
 
-alias winetricks-/usr/local/bin/winetricks-latest
+alias winetricks=/usr/local/bin/winetricks-latest
 
 winetricks winxp
 winetricks sound=alsa
