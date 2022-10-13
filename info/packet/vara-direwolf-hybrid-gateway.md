@@ -337,6 +337,14 @@ and some moving parts that I wrapped in a script below.
 
 ![Kenwood TS-2000, venerably supported by CAT control software everywhere](/images/kenwood-ts2000.webp)
 
+## Prerequisites
+
+```
+sudo apt-get install -y libhamlib-utils socat
+```
+
+**Important:** See note below about hamlib < 4.3 on Debian 11.
+
 ## [`socat` 🐈](https://linux.die.net/man/1/socat)
 
 Essentially a pipe swiss army knife and a huge inspiration for how to wire anything
@@ -413,16 +421,16 @@ sudo apt-get build-dep -y hamlib
 ## Build Packages
 
 ```
-mkdir ~/src/debian && cd ~/src/debian
+mkdir -p ~/src/debian && cd ~/src/debian
 apt-get source hamlib
-cd hamlib*
+cd hamlib-4*
 debuild -b -uc -us
 ```
 
 -> Install the new packages in `~/src/debian`
 
 ```
-sudo dpkg -i ~/src/debian/*.deb
+sudo dpkg -i ~/src/debian/libhamlib4_4*.deb ~/src/debian/libhamlib-utils_4*.deb
 ```
 
 # Done
