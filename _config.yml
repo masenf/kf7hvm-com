@@ -56,8 +56,8 @@ baseurl: ""
 permalink: pretty
 
 # staticman (comments) configuration
-staticman_url: https://kf7hvm-staticman.herokuapp.com/v2/entry/masenf/kf7hvm-com/master/comments
-staticman_log_url: https://kf7hvm-staticman.herokuapp.com/v2/entry/masenf/kf7hvm-com/master/logentry
+staticman_url: https://staticman.0x26.net/v2/entry/masenf/kf7hvm-com/master/comments
+staticman_log_url: https://staticman.0x26.net/v2/entry/masenf/kf7hvm-com/master/logentry
 
 # allow comments on all posts
 defaults:
