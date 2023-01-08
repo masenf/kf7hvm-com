@@ -198,6 +198,31 @@ PulseAudio adds latency, but a) it's working for this purpose and b) the
 control plane tooling for PulseAudio is nicer and offers richer possibilities
 for shipping audio across the network.
 
+## Pulseaudio Latency Tweaks
+
+On lower end machines, Pulseaudio buffering configuration may result in crackling or skipping
+audio when CPU load is high. The following settings can help alleviate this, at the expense of
+increased latency.
+
+### `/etc/pulse/daemon.conf`
+
+```
+default-fragments 8
+```
+
+Increasing the fragments will cause more buffering and latency, which will result in better sounding audio.
+Each fragment (by default) is `25ms`.
+
+### `/etc/pulse/default.pa`
+
+```
+load-module module-udev-detect tsched=0
+```
+
+Find the `module-udev-detect` line in `default.pa` and add `tsched=0` to revert back to interrupt-driven
+audio, which improves performance (for some).
+
+
 ## Create `~/.asoundrc`
 
 Since ALSA is _better supported_ by wine and direwolf, but pulse provides
@@ -480,6 +505,8 @@ For now...
 * Integrate [`aprs3`](https://github.com/python-aprs/aprs3) library to beacon.
 * Post gateway status to winlink.org
 * Better statistics and logging (gensio-modems)
+* Improve reliability of gensio-modems
+* Improve crackling, skipping audio sometimes.
 
 # Winlink Express
 
