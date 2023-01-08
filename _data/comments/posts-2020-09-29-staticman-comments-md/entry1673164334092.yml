@@ -1,0 +1,8 @@
+_id: 5cd2e6b0-8f29-11ed-a889-df73bc4cdb02
+_parent: 'http://www.kf7hvm.com/2020/09/29/staticman-comments/'
+replying_to_uid: cc8119b0-8f28-11ed-a889-df73bc4cdb02
+message: "Back in November 2022, heroku finally shut down their free tier... breaking my leeching comment forms (and those of hobbyists everywhere).\r\n\r\nIn December 2022, I finally moved most of my other infrastructure away from digitalocean to a larger hetzner instance, so it was natural to spin up a docker-compose deploy of staticman to retain my web-to-git static comment publishing story.\r\n\r\nThanks for coming along for the ride."
+name: KF7HVM
+email: ''
+hp: ''
+date: 1673164334
