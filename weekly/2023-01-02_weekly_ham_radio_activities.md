@@ -4,6 +4,8 @@ title: 2023-01-02 Weekly Ham Radio Activities
 permalink: /weekly/2023-01-02
 ---
 
+_Maybe you're looking for [next week's newsletter](/weekly/2023-01-08)_?
+
 ## Welcome Back 👋
 
 Although the Weekly Ham Radio Activities newsletter became too much for me to
