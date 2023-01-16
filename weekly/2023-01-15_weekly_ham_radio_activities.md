@@ -1,34 +1,34 @@
 ---
 layout: page
-title: 2023-01-08 Weekly Ham Radio Activities
-permalink: /weekly/2023-01-08
+title: 2023-01-15 Weekly Ham Radio Activities
+permalink: /weekly/2023-01-15
 ---
 
-_Maybe you're looking for [next week's](/weekly/2023-01-15) or [last week's](/weekly/2023-01-02) newsletter_?
+_Maybe you're looking for [last week's newsletter](/weekly/2023-01-08)_?
 
-## Recap 🔁
+## Upcoming Events 🗓
 
-* 01/04 Wed **Cowlitz County ACS Meeting** at LCARA clubhouse
-
-## Later This Month
-
-* 01/18 Wed 19:00 **LCARA Business Meeting**
+* 01/18 Wed 19:00 **LCARA Business Meeting** at LCARA clubhouse
+  * ZOOM link will be sent out on Wednesday morning
 
 ### Saturday 1/21
 
 The third Saturday of each month is typically a training and operating day at
-the LCARA clubhouse.
+the LCARA clubhouse, however, this Saturday we will be operating the station
+from the beginning of the [**ARRL VHF
+Contest**](http://www.arrl.org/january-vhf) period at 11:00 PST 2023-01-21
+until around 16:00 PST 2023-01-21.
 
-This month, the third Saturday is _also_ the January [**ARRL VHF
-Contest**](http://www.arrl.org/january-vhf), so we will be setting up around
-10:30 for the contest period starting at 11:00 PST. Further details TBD, **if
-you are interested in helping coordinate, please respond.**
+The recently upgraded W7DG club station will be operated with the following
+capabilities.
 
-The club station has capabilities on 6m (SSB, FM); 2m (SSB, FM); 1.25m (FM);
-70cm (SSB, FM); 33cm (SSB), 4 of which can be simultaneously operated, with a
-shared log book.
+* IC-7610 on 6m SSB - Beam
+* IC-7100 on 2m + 70cm SSB - Vertical
+* IC-9100 on 2m + 70cm + 23cm SSB - Beam
+* FT-736R on 1.25m SSB - Vertical
+* IC-705 on 2m + 70cm SSB - Vertical [REMOTE station]
 
-## Upcoming Events
+## Later on
 
 * 01/28 - 01/30: [**Winter Field Day**](https://www.winterfieldday.com/) (unofficial)
 
@@ -53,13 +53,13 @@ the following links:
 
 ### Nets ✅
 
-- 01/09 Mon 2000: [Cowlitz County ACS](http://cowlitzradio.org/) Net - Open to all Amateurs
+- 01/16 Mon 2000: [Cowlitz County ACS](http://cowlitzradio.org/) Net - Open to all Amateurs
   - [W7DG 147.260 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?ID=408&state_id=53)
   - Also, [check in via APRS message](/info/aprsnet/) to [N7DEM-5: CHECKIN Name Location](https://aprs.fi/?c=message&call=N7DEM-5)
-- 01/10 Tue 0900: CEMNET Region IV Net - Winlink, V-Tac 12, 224.660 MHz (EOC)
+- 01/17 Tue 0900: CEMNET Region IV Net - Winlink, V-Tac 12, 224.660 MHz (EOC)
   - Email [kf7hvm@0x26.net](mailto:kf7hvm@0x26.net) to be added to the weekly
     Winlink test
-- 01/15 Sun 2000: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
+- 01/22 Sun 2000: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
   - 2000 Woodland Checkin [W7DG 147.300 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?state_id=53&ID=412)
   - 2015 Roundtable [W7DG 147.260 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?ID=408&state_id=53)
 
