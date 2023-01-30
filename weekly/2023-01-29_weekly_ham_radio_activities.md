@@ -1,41 +1,22 @@
 ---
 layout: page
-title: 2023-01-22 Weekly Ham Radio Activities
-permalink: /weekly/2023-01-22
+title: 2023-01-29 Weekly Ham Radio Activities
+permalink: /weekly/2023-01-29
 ---
 
-_Maybe you're looking for [next week's](/weekly/2023-01-15) or [last week's](/weekly/2023-01-29) newsletter_?
+_Maybe you're looking for [last week's newsletter](/weekly/2023-01-22)_?
 
 ## Recap 🔁
 
-* 01/18 **LCARA Business Meeting**
-
-### January VHF Contest
-
-Last Saturday (1/21) W7DG participated in the [**ARRL VHF
-Contest**](http://www.arrl.org/january-vhf) at the LCARA clubhouse. There was a
-great turnout, and we were operating 3 stations simultaneously throughout most
-of the day.
-
-As of Sunday afternoon, the club had amassed 89 contacts across different bands
-and modes for a total of 2,754 points, we'll see if that's enough to place.
-
-Thanks to everyone who came by and supported the club.
+* 01/18 **LCARA Business Meeting** [[Minutes]](https://w7dg-lcara.github.io/static/minutes/2023/business/2023_01_18_LCARA_Business_Meeting_latest.pdf)
+* 01/25 Wed **LCARA Technical Committee** at LCARA clubhouse [[Minutes]](https://github.com/w7dg-lcara/static/blob/main/minutes/2023/technical/2023-01-25.md#lcara-technical-125)
 
 ## Upcoming Events 🗓
 
-* 01/25 Wed 19:00 **LCARA Technical Committee** at LCARA clubhouse
-* 01/28 - 01/30: [**Winter Field Day**](https://www.winterfieldday.com/) (unofficial)
+* 02/01 Wed 19:00 **Cowlitz County ACS Meeting**
+  * In person at LCARA clubhouse, **NO ZOOM** available due to internet issues.
 
-### 50/50?
-
-At the last business meeting, we decided to bring 50/50 raffles back to the
-LCARA Business meetings, and potentially other events. Matt, KD7BBJ, has
-graciously agreed to organize the effort, so all you need to do to participate
-is bring some cash with you when attending the next LCARA Business meeting on
-Wednesday, Feb 15th!
-
-### February 8, 2023 - Presentation Night: Homebrew Quad Loop
+### **NEXT WEEK** February 8, 2023 - Presentation Night: Homebrew Quad Loop
 
 Brian KJ7OX shares his experience with building and operating _a
 vertically oriented, horizontally polarized, rectangular **quad loop for 10
@@ -56,13 +37,20 @@ the following links:
 
 ### Nets ✅
 
-- 01/23 Mon 2000: [Cowlitz County ACS](http://cowlitzradio.org/) Net - Open to all Amateurs
+#### NEW GMRS Net
+
+- 02/04 Sat 1900: **NEW** GMRS Net - Open to all licensed GMRS operators
+  - [WRNM663 462.650 MHz T114.8 +500](https://www.repeaterbook.com/gmrs/details.php?state_id=53&ID=367) (Rainier)
+
+#### Other Nets
+
+- 01/30 Mon 2000: [Cowlitz County ACS](http://cowlitzradio.org/) Net - Open to all Amateurs
   - [W7DG 147.260 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?ID=408&state_id=53)
   - Also, [check in via APRS message](/info/aprsnet/) to [N7DEM-5: CHECKIN Name Location](https://aprs.fi/?c=message&call=N7DEM-5)
-- 01/24 Tue 0900: CEMNET Region IV Net - Winlink, V-Tac 12, 224.660 MHz (EOC)
+- 01/31 Tue 0900: CEMNET Region IV Net - Winlink, V-Tac 12, 224.660 MHz (EOC)
   - Email [kf7hvm@0x26.net](mailto:kf7hvm@0x26.net) to be added to the weekly
     Winlink test
-- 01/29 Sun 2000: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
+- 02/05 Sun 2000: [W7MSH Mercury Mt. St. Helens](https://www.w7msh.org) ERC Net - Open to all Amateurs
   - 2000 Woodland Checkin [W7DG 147.300 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?state_id=53&ID=412)
   - 2015 Roundtable [W7DG 147.260 MHz T114 +060](https://www.repeaterbook.com/repeaters/details.php?ID=408&state_id=53)
 
