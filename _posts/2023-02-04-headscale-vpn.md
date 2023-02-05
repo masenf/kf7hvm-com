@@ -25,7 +25,7 @@ The headscale model presents a single "tailnet" or network namespace, although
 ACL policies can be set on the control server to affect traffic routing between
 tagged nodes. 
 
-<img src="/images/2023-02-04_w7dg_tailscale.png">
+<img src="/images/2023-02-05_w7dg_tailscale.png">
 
 # Deploying the Server
 
