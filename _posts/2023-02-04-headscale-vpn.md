@@ -119,6 +119,21 @@ This spits out a nodekey that you use on the server to add the node
 docker compose exec headscale headscale node register --user foo --nodekey nodekey:......
 ```
 
+# Subnet Routing
+
+From a client that wants to share a subnet
+
+```
+sudo tailscale up --advertise-routes=192.168.1.0/24 --login-server=https://headscale.w7dg.net
+```
+
+## Accept the advertisement
+
+```
+docker compose exec headscale headscale route list
+docker compose exec headscale headscale route enable -r <id>
+```
+
 # Ease of Use
 
 Hopefully, for a network like ours, onboarding user devices will be relatively infrequent.
