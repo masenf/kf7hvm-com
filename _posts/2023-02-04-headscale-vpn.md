@@ -101,22 +101,33 @@ server {
 
 # Create a User
 
+Users control nodes in the tailnet. There is **no authentication in headscale**
+by default, users are merely containers for nodes and are used to apply
+policies. The admin decides who a node who it will belong to when registering
+and can reassign nodes at will.
+
 ```
 docker compose exec headscale headscale user create foo
 ```
 
 # Connecting Clients
 
+* On windows, click Start, search for "command prompt", right-click and select
+  "Run as Administrator".
+* On linux, use `sudo` to run as root.
+
 ```
-sudo tailscale up --login-server=https://headscale.w7dg.net
+tailscale up --login-server=https://headscale.w7dg.net
 ```
 
-This spits out a nodekey that you use on the server to add the node
+If it worked, this spits out a nodekey that the user sends to the admin to
+register the node / client on the server. If a tailscale login page is seen,
+then something is wrong.
 
 ## Adding a node
 
 ```
-docker compose exec headscale headscale node register --user foo --nodekey nodekey:......
+docker compose exec headscale headscale node register --user foo --key nodekey:......
 ```
 
 # Subnet Routing
@@ -127,11 +138,19 @@ From a client that wants to share a subnet
 sudo tailscale up --advertise-routes=192.168.1.0/24 --login-server=https://headscale.w7dg.net
 ```
 
-## Accept the advertisement
+## Enable the Routes
 
 ```
 docker compose exec headscale headscale route list
 docker compose exec headscale headscale route enable -r <id>
+```
+
+## Accept the Advertisements
+
+From the clients that should connect to the subnets:
+
+```
+tailscale up --accept-routes ...
 ```
 
 # Ease of Use
@@ -149,3 +168,10 @@ so we can deploy this into "production".
 * Configuring `DERP` / `STUN` infrastructure so that clients unable to connect
   directly can connect through our infrastructure without leeching from tailscale.
 * Configuring ACL and testing the whole thing end to end
+
+# Source
+
+* https://techoverflow.net/2022/01/16/how-to-setup-headscale-server-in-5-minutes-using-docker-compose/
+* https://github.com/juanfont/headscale
+* https://tailscale.com/kb/1019/subnets/
+* https://tailscale.com/kb/1118/custom-derp-servers/
