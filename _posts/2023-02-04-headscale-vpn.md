@@ -171,7 +171,7 @@ so we can deploy this into "production".
 
 # Source
 
-* https://techoverflow.net/2022/01/16/how-to-setup-headscale-server-in-5-minutes-using-docker-compose/
-* https://github.com/juanfont/headscale
-* https://tailscale.com/kb/1019/subnets/
-* https://tailscale.com/kb/1118/custom-derp-servers/
+* [https://techoverflow.net/2022/01/16/how-to-setup-headscale-server-in-5-minutes-using-docker-compose/](https://techoverflow.net/2022/01/16/how-to-setup-headscale-server-in-5-minutes-using-docker-compose/)
+* [https://github.com/juanfont/headscale](https://github.com/juanfont/headscale)
+* [https://tailscale.com/kb/1019/subnets/](https://tailscale.com/kb/1019/subnets/)
+* [https://tailscale.com/kb/1118/custom-derp-servers/](https://tailscale.com/kb/1118/custom-derp-servers/)
