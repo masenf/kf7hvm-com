@@ -76,6 +76,9 @@ input/output formats and more usage information.
 
 # Upcoming Projects
 
+I've got a lot in flight, want to help out? Register on my [furer.co](https://furer.co) forum
+where I keep track of the latest progress.
+
 * simplextest.net - coordinating propagation testing
 * qsowatch - a new way of visualizing DMR network traffic
 * USB+standalone PTT switch w/ PC data+voice for Yaesu FT-2900

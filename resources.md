@@ -6,7 +6,6 @@ title: Resources
 # Cowlitz County / Local
 
 * [Ham Radio Activity Calendar](/calendar)
-* [NA7Q AllStar](http://allstar.na7q.com:81)
 * [W7DG Weather](http://weather.w7dg.net)
 
 # Digital Radio
@@ -15,12 +14,16 @@ title: Resources
 
 * [ARDOP](https://www.winlink.org/content/ardop_overview) - next gen connected mode data protocols (HF/VHF/UHF)
   * Or is it abandoned in favor of closed source VARA?? 
+* [VARA on Wine Hybrid Gateway](/info/packet/vara-direwolf-hybrid-gateway)
 
 ## DMR
 
 ### [Programming TYT Handhelds](/info/tyt/) (w/ video)
 
 ### Software
+
+* [DZCB - DMR Zone Config Builder](/projects#dzcb---dmr-zone-channel-builder)
+  * What I use to generate [`example-codeplug`](https://github.com/mycodeplug/example-codeplug), which you can customize.
 
 Alternate programming software that I've found:
 
@@ -51,6 +54,7 @@ Alternate programming software that I've found:
 
 # Antennas
 
+* [Homebrew 10m Quad Loop](/weekly/2023-01-29#next-week-february-8-2023---presentation-night-homebrew-quad-loop) (Brian KJ7OX)
 * [N4JA Antenna Book](http://www.hamuniverse.com/n4jaantennabook.html) for non-technical hams
   * A great introduction to antennas in non-technical terms
 * [HF "random wire" antenna length](http://udel.edu/~mm/ham/randomWire/)
