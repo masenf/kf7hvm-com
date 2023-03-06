@@ -4,7 +4,7 @@ title: 2023-02-26 Weekly Ham Radio Activities
 permalink: /weekly/2023-02-26
 ---
 
-_Maybe you're looking for [last week's newsletter](/weekly/2023-02-19)_?
+_Maybe you're looking for [next week's](/weekly/2023-03-05) or [last week's](/weekly/2023-02-19) newsletter_?
 
 ## Recap 🔁
 
@@ -104,35 +104,6 @@ to Glen N7UIG or Masen KF7HVM
 
 **If you are interested in beta testing remote access to the clubhouse radios,
 please let me know.**
-
-## For Sale
-
-KJ7OX has for sale a [Kenwood TS-590s](https://www.kenwood.com/usa/com/amateur/ts-590s/) in like new condition.
-
-<img src="./files/kenwood_ts-590s.webp">
-
-No wear on any buttons or knobs.  Installed in this Kenwood is the optional TCXO
-stabilization crystal which keeps the transceiver dead on frequency. I’ve
-checked it against WWV and its spot on.  The TCXO was a $100 option.  Also
-installed is the VGS-1 voice recorder.  You can use it to call CQ with your
-voice!  It’s a voice saver and also works for CW.  You can also record what
-you’re receiving.  This also was nearly a $100 option. 
-
-Also included in this package is the original hand mic, power cable with Power
-Pole plug-in, owners manual and box.  
-
-*Added bonus*  Included is the [HEIL PR-22 studio mic](https://heilsound.com/product/pr22ut/)
-and it’s matching cable for the Kenwood.   Everything is in new condition and
-will work perfectly out of the box.  
-
-Free to download from the Kenwood software download site is ARCP-590 radio
-control software.  When you connect your computer to the Kenwood TS-590 via USB
-A/B cable you can control all radio functions with the computer/mouse and rarely
-need to touch the radio.  It’s a great feature. 
-
-**$700** is the price.
-
-Contact Brian KJ7OX via email if interested: brian.kj7ox [at] gmail [dot] com
 
 # Thanks for reading. 
 
