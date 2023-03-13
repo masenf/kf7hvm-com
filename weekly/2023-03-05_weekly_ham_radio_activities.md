@@ -4,7 +4,7 @@ title: 2023-03-05 Weekly Ham Radio Activities
 permalink: /weekly/2023-03-05
 ---
 
-_Maybe you're looking for [last week's newsletter](/weekly/2023-02-26)_?
+_Maybe you're looking for [next week's](/weekly/2023-03-12) or [last week's](/weekly/2023-02-26) newsletter_?
 
 ## Recap 🔁
 
