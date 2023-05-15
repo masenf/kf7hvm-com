@@ -10,7 +10,7 @@ _Maybe you're looking for [last week's newsletter](/weekly/2023-05-07)_?
 
 * 5/10 Wed LCARA Presentation Night: Winlink from the Ground Up
   * [Watch Video on Youtube](https://www.youtube.com/watch?v=xcJ8gbnDy8g)
-* 5/13 Sat 10:00 **VE Testing Session** at LCARA Clubhouse
+* 5/13 Sat VE Testing Session at LCARA Clubhouse
   * Heard of a few successful upgrades, but no one sent me a report...
 
 ## Upcoming Events 🗓
