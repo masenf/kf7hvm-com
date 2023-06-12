@@ -8,7 +8,7 @@ _Maybe you're looking for [last week's newsletter](/weekly/2023-06-04)_?
 
 ## Recap 🔁
 
-* 06/07 Wed 19:00 **Cowlitz County ACS Meeting** as LCARA Clubhouse
+* 06/07 Wed 19:00 **Cowlitz County ACS Meeting** at LCARA Clubhouse
 
 ## Upcoming Events 🗓
 
