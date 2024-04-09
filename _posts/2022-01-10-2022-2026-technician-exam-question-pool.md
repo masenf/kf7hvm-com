@@ -3,7 +3,7 @@ layout: post
 title: 2022-2026 Technician Exam Question Pool
 ---
 
-The [NCVEC](http://www.ncvec.org/) has released the [new question pool](http://www.ncvec.org/page.php?id=373)
+The [NCVEC](http://www.ncvec.org/) has released the [new question pool](https://ncvec.org/downloads/Technician%20Pool%20and%20Syllabus%202022-2026%20Public%20Release%20Errata%20March%207%202022.pdf) [PDF]
 for the 2022 technician's exam, effective 7/01/2022 - 6/30/2026.
 
 The training site [ham.study](http://ham.study) has provided a diff of all the questions
